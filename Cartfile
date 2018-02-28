@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire"
+github "Alamofire/AlamofireImage" ~> 3.3
+github "Quick/Quick"
+github "Quick/Nimble"

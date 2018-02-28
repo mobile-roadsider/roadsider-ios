@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340779111F2BF36F00E80BF7 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348ABE551F2ADA7200152797 /* Alamofire.framework */; };
+		340779121F2BF39300E80BF7 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 348ABE551F2ADA7200152797 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3422625F1F64DCEE00DBB73E /* Alamofire.framework in Embed Binary */ = {isa = PBXBuildFile; fileRef = 348ABE551F2ADA7200152797 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		342262611F64FC1300DBB73E /* RSHttpServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342262601F64FC1300DBB73E /* RSHttpServiceProtocol.swift */; };
+		342262641F64FF3C00DBB73E /* RSOAuthAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342262631F64FF3C00DBB73E /* RSOAuthAPIClient.swift */; };
+		342262651F6506EF00DBB73E /* RSOAuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C41B141F64AF4200652313 /* RSOAuthRequest.swift */; };
+		342C6DDB1F2D854E0083B2FA /* RSHttpServiceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C6DDA1F2D854E0083B2FA /* RSHttpServiceEndpoint.swift */; };
+		342C6DDD1F2D886E0083B2FA /* ServerConfigurationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C6DDC1F2D886E0083B2FA /* ServerConfigurationHandler.swift */; };
+		342C6DDF1F2D890E0083B2FA /* ServerConfigurationSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 342C6DDE1F2D890E0083B2FA /* ServerConfigurationSettings.plist */; };
+		3462FB8F1F53F2FE00AD636C /* RSSharedSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3462FB8E1F53F2FE00AD636C /* RSSharedSession.swift */; };
+		346412E71FD4804E007C2951 /* Nimble.framework in Embed Binary */ = {isa = PBXBuildFile; fileRef = 34E20F771FD4764B00CD4C7F /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		346412E81FD4804E007C2951 /* Quick.framework in Embed Binary */ = {isa = PBXBuildFile; fileRef = 34E20F781FD4764B00CD4C7F /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		346F85AA1FAD490B006D3E53 /* RSOAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346F85A91FAD490B006D3E53 /* RSOAuthHandler.swift */; };
+		346F85B01FAD492F006D3E53 /* YQDataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346F85B11FAD492F006D3E53 /* YQDataLayer.framework */; };
+		3481F6D41F9D571E0016AB99 /* RSPostsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3481F6D31F9D571E0016AB99 /* RSPostsService.swift */; };
+		3481F6D81F9D5D430016AB99 /* RSPostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3481F6D71F9D5D430016AB99 /* RSPostRequest.swift */; };
+		348ABE401F2AD80200152797 /* RSNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348ABE361F2AD80200152797 /* RSNetworking.framework */; };
+		348ABE451F2AD80200152797 /* RSNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348ABE441F2AD80200152797 /* RSNetworkingTests.swift */; };
+		348ABE471F2AD80200152797 /* RSNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 348ABE391F2AD80200152797 /* RSNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		348ABE511F2AD83A00152797 /* RSAPIClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348ABE501F2AD83A00152797 /* RSAPIClientProtocol.swift */; };
+		3495E1B91F52A3D8005DE4FA /* YQUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3495E1BA1F52A3D8005DE4FA /* YQUtils.framework */; };
+		349DCCBC1F64CFFD00F4A70C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348ABE551F2ADA7200152797 /* Alamofire.framework */; };
+		34B9FC3B1F2DB51B002BA945 /* RSOAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B9FC3A1F2DB51B002BA945 /* RSOAuthService.swift */; };
+		34C41B171F64AF6600652313 /* RSOAuthRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C41B161F64AF6600652313 /* RSOAuthRequestTests.swift */; };
+		34D511261F67AAD0008C518E /* RSOAuthServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D511251F67AAD0008C518E /* RSOAuthServiceTests.swift */; };
+		34D511291F67ABAC008C518E /* RSFakeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D511281F67ABAC008C518E /* RSFakeAPIClient.swift */; };
+		34E20F791FD4764B00CD4C7F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E20F771FD4764B00CD4C7F /* Nimble.framework */; };
+		34E20F7A1FD4764B00CD4C7F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E20F781FD4764B00CD4C7F /* Quick.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		348ABE411F2AD80200152797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 348ABE2D1F2AD80200152797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 348ABE351F2AD80200152797;
+			remoteInfo = YQNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3422625E1F64DCDD00DBB73E /* Embed Binary */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				346412E71FD4804E007C2951 /* Nimble.framework in Embed Binary */,
+				346412E81FD4804E007C2951 /* Quick.framework in Embed Binary */,
+				3422625F1F64DCEE00DBB73E /* Alamofire.framework in Embed Binary */,
+			);
+			name = "Embed Binary";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E2BC7B1F2B13F100656C27 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				340779121F2BF39300E80BF7 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		342262601F64FC1300DBB73E /* RSHttpServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSHttpServiceProtocol.swift; sourceTree = "<group>"; };
+		342262631F64FF3C00DBB73E /* RSOAuthAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOAuthAPIClient.swift; sourceTree = "<group>"; };
+		342C6DDA1F2D854E0083B2FA /* RSHttpServiceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSHttpServiceEndpoint.swift; sourceTree = "<group>"; };
+		342C6DDC1F2D886E0083B2FA /* ServerConfigurationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfigurationHandler.swift; sourceTree = "<group>"; };
+		342C6DDE1F2D890E0083B2FA /* ServerConfigurationSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ServerConfigurationSettings.plist; sourceTree = "<group>"; };
+		3462FB8E1F53F2FE00AD636C /* RSSharedSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSharedSession.swift; sourceTree = "<group>"; };
+		346F85A91FAD490B006D3E53 /* RSOAuthHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOAuthHandler.swift; sourceTree = "<group>"; };
+		346F85B11FAD492F006D3E53 /* YQDataLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YQDataLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3481F6D31F9D571E0016AB99 /* RSPostsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPostsService.swift; sourceTree = "<group>"; };
+		3481F6D71F9D5D430016AB99 /* RSPostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RSPostRequest.swift; path = Requests/RSPostRequest.swift; sourceTree = "<group>"; };
+		348ABE361F2AD80200152797 /* RSNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		348ABE391F2AD80200152797 /* RSNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSNetworking.h; sourceTree = "<group>"; };
+		348ABE3A1F2AD80200152797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348ABE3F1F2AD80200152797 /* RSNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		348ABE441F2AD80200152797 /* RSNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSNetworkingTests.swift; sourceTree = "<group>"; };
+		348ABE461F2AD80200152797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348ABE501F2AD83A00152797 /* RSAPIClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAPIClientProtocol.swift; sourceTree = "<group>"; };
+		348ABE551F2ADA7200152797 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = ../../Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		3495E1BA1F52A3D8005DE4FA /* YQUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YQUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B9FC3A1F2DB51B002BA945 /* RSOAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOAuthService.swift; sourceTree = "<group>"; };
+		34C41B141F64AF4200652313 /* RSOAuthRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RSOAuthRequest.swift; path = Requests/RSOAuthRequest.swift; sourceTree = "<group>"; };
+		34C41B161F64AF6600652313 /* RSOAuthRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOAuthRequestTests.swift; sourceTree = "<group>"; };
+		34D511251F67AAD0008C518E /* RSOAuthServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSOAuthServiceTests.swift; sourceTree = "<group>"; };
+		34D511281F67ABAC008C518E /* RSFakeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSFakeAPIClient.swift; sourceTree = "<group>"; };
+		34E20F771FD4764B00CD4C7F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../../Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		34E20F781FD4764B00CD4C7F /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = ../../Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		348ABE321F2AD80200152797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346F85B01FAD492F006D3E53 /* YQDataLayer.framework in Frameworks */,
+				3495E1B91F52A3D8005DE4FA /* YQUtils.framework in Frameworks */,
+				340779111F2BF36F00E80BF7 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348ABE3C1F2AD80200152797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348ABE401F2AD80200152797 /* RSNetworking.framework in Frameworks */,
+				349DCCBC1F64CFFD00F4A70C /* Alamofire.framework in Frameworks */,
+				34E20F791FD4764B00CD4C7F /* Nimble.framework in Frameworks */,
+				34E20F7A1FD4764B00CD4C7F /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342262621F64FF1D00DBB73E /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				348ABE501F2AD83A00152797 /* RSAPIClientProtocol.swift */,
+				342262631F64FF3C00DBB73E /* RSOAuthAPIClient.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		3462FB901F53F8F000AD636C /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				346F85A91FAD490B006D3E53 /* RSOAuthHandler.swift */,
+				342C6DDC1F2D886E0083B2FA /* ServerConfigurationHandler.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		3481F6D91F9D6C8F0016AB99 /* FetchPosts */ = {
+			isa = PBXGroup;
+			children = (
+				3481F6D31F9D571E0016AB99 /* RSPostsService.swift */,
+			);
+			path = FetchPosts;
+			sourceTree = "<group>";
+		};
+		348ABE2C1F2AD80200152797 = {
+			isa = PBXGroup;
+			children = (
+				348ABE381F2AD80200152797 /* RSNetworking */,
+				348ABE431F2AD80200152797 /* RSNetworkingTests */,
+				348ABE371F2AD80200152797 /* Products */,
+				348ABE541F2ADA7200152797 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		348ABE371F2AD80200152797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				348ABE361F2AD80200152797 /* RSNetworking.framework */,
+				348ABE3F1F2AD80200152797 /* RSNetworkingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		348ABE381F2AD80200152797 /* RSNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				342262621F64FF1D00DBB73E /* ApiClient */,
+				34C41B131F64AF3700652313 /* Requests */,
+				34B9FC391F2DB4FD002BA945 /* YaqeenServices */,
+				34B3917B1F514A6500A811C3 /* Protocols */,
+				3462FB901F53F8F000AD636C /* Handler */,
+				348ABE391F2AD80200152797 /* RSNetworking.h */,
+				348ABE3A1F2AD80200152797 /* Info.plist */,
+				342C6DDE1F2D890E0083B2FA /* ServerConfigurationSettings.plist */,
+			);
+			path = RSNetworking;
+			sourceTree = "<group>";
+		};
+		348ABE431F2AD80200152797 /* RSNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				34D511271F67AB91008C518E /* FakeClients */,
+				34D511241F67AAB8008C518E /* YaqeenServices */,
+				34C41B151F64AF4D00652313 /* Requests */,
+				348ABE441F2AD80200152797 /* RSNetworkingTests.swift */,
+				348ABE461F2AD80200152797 /* Info.plist */,
+			);
+			path = RSNetworkingTests;
+			sourceTree = "<group>";
+		};
+		348ABE541F2ADA7200152797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34E20F771FD4764B00CD4C7F /* Nimble.framework */,
+				34E20F781FD4764B00CD4C7F /* Quick.framework */,
+				346F85B11FAD492F006D3E53 /* YQDataLayer.framework */,
+				3495E1BA1F52A3D8005DE4FA /* YQUtils.framework */,
+				348ABE551F2ADA7200152797 /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34B3917B1F514A6500A811C3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				342C6DDA1F2D854E0083B2FA /* RSHttpServiceEndpoint.swift */,
+				342262601F64FC1300DBB73E /* RSHttpServiceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		34B9FC391F2DB4FD002BA945 /* YaqeenServices */ = {
+			isa = PBXGroup;
+			children = (
+				34B9FC3A1F2DB51B002BA945 /* RSOAuthService.swift */,
+				3462FB8E1F53F2FE00AD636C /* RSSharedSession.swift */,
+				3481F6D91F9D6C8F0016AB99 /* FetchPosts */,
+			);
+			path = YaqeenServices;
+			sourceTree = "<group>";
+		};
+		34C41B131F64AF3700652313 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				34C41B141F64AF4200652313 /* RSOAuthRequest.swift */,
+				3481F6D71F9D5D430016AB99 /* RSPostRequest.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		34C41B151F64AF4D00652313 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				34C41B161F64AF6600652313 /* RSOAuthRequestTests.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		34D511241F67AAB8008C518E /* YaqeenServices */ = {
+			isa = PBXGroup;
+			children = (
+				34D511251F67AAD0008C518E /* RSOAuthServiceTests.swift */,
+			);
+			path = YaqeenServices;
+			sourceTree = "<group>";
+		};
+		34D511271F67AB91008C518E /* FakeClients */ = {
+			isa = PBXGroup;
+			children = (
+				34D511281F67ABAC008C518E /* RSFakeAPIClient.swift */,
+			);
+			path = FakeClients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		348ABE331F2AD80200152797 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348ABE471F2AD80200152797 /* RSNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		348ABE351F2AD80200152797 /* RSNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348ABE4A1F2AD80200152797 /* Build configuration list for PBXNativeTarget "RSNetworking" */;
+			buildPhases = (
+				34DC9274201EB409002AA0D5 /* Check Carthage */,
+				348ABE311F2AD80200152797 /* Sources */,
+				348ABE321F2AD80200152797 /* Frameworks */,
+				348ABE331F2AD80200152797 /* Headers */,
+				348ABE341F2AD80200152797 /* Resources */,
+				34E2BC7B1F2B13F100656C27 /* Embed Frameworks */,
+				34B09B93201E9F7E0069554E /* Carthage Copy */,
+				34B09B94201EA52F0069554E /* Remove Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSNetworking;
+			productName = YQNetworking;
+			productReference = 348ABE361F2AD80200152797 /* RSNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		348ABE3E1F2AD80200152797 /* RSNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348ABE4D1F2AD80200152797 /* Build configuration list for PBXNativeTarget "RSNetworkingTests" */;
+			buildPhases = (
+				341FCD691FF20B2F00B0EE17 /* Check Carthage */,
+				348ABE3B1F2AD80200152797 /* Sources */,
+				348ABE3C1F2AD80200152797 /* Frameworks */,
+				348ABE3D1F2AD80200152797 /* Resources */,
+				3422625E1F64DCDD00DBB73E /* Embed Binary */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348ABE421F2AD80200152797 /* PBXTargetDependency */,
+			);
+			name = RSNetworkingTests;
+			productName = YQNetworkingTests;
+			productReference = 348ABE3F1F2AD80200152797 /* RSNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		348ABE2D1F2AD80200152797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Yaqeen;
+				TargetAttributes = {
+					348ABE351F2AD80200152797 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+					};
+					348ABE3E1F2AD80200152797 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 348ABE301F2AD80200152797 /* Build configuration list for PBXProject "RSNetworking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 348ABE2C1F2AD80200152797;
+			productRefGroup = 348ABE371F2AD80200152797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				348ABE351F2AD80200152797 /* RSNetworking */,
+				348ABE3E1F2AD80200152797 /* RSNetworkingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		348ABE341F2AD80200152797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342C6DDF1F2D890E0083B2FA /* ServerConfigurationSettings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348ABE3D1F2AD80200152797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		341FCD691FF20B2F00B0EE17 /* Check Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../../Carthage/Build/iOS/Alamofire.Framework",
+				"$(SRCROOT)/../../Carthage/Build/iOS/Nimble.Framework",
+				"$(SRCROOT)/../../Carthage/Build/iOS/Quick.Framework",
+			);
+			name = "Check Carthage";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n\nROOT=\"../..\"\n\"$SRCROOT/$ROOT\"/scripts/carthage.sh";
+		};
+		34B09B93201E9F7E0069554E /* Carthage Copy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../../Carthage/Build/iOS/Alamofire.Framework",
+			);
+			name = "Carthage Copy";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		34B09B94201EA52F0069554E /* Remove Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Remove Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [[ -d \"Frameworks\" ]]; then\nrm -fr Frameworks\nfi";
+		};
+		34DC9274201EB409002AA0D5 /* Check Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../../Carthage/Build/iOS/Alamofire.Framework",
+			);
+			name = "Check Carthage";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n\nROOT=\"../..\"\n\"$SRCROOT/$ROOT\"/scripts/carthage.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		348ABE311F2AD80200152797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3481F6D81F9D5D430016AB99 /* RSPostRequest.swift in Sources */,
+				3462FB8F1F53F2FE00AD636C /* RSSharedSession.swift in Sources */,
+				342C6DDB1F2D854E0083B2FA /* RSHttpServiceEndpoint.swift in Sources */,
+				342262651F6506EF00DBB73E /* RSOAuthRequest.swift in Sources */,
+				34B9FC3B1F2DB51B002BA945 /* RSOAuthService.swift in Sources */,
+				3481F6D41F9D571E0016AB99 /* RSPostsService.swift in Sources */,
+				342262641F64FF3C00DBB73E /* RSOAuthAPIClient.swift in Sources */,
+				342C6DDD1F2D886E0083B2FA /* ServerConfigurationHandler.swift in Sources */,
+				346F85AA1FAD490B006D3E53 /* RSOAuthHandler.swift in Sources */,
+				348ABE511F2AD83A00152797 /* RSAPIClientProtocol.swift in Sources */,
+				342262611F64FC1300DBB73E /* RSHttpServiceProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348ABE3B1F2AD80200152797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348ABE451F2AD80200152797 /* RSNetworkingTests.swift in Sources */,
+				34D511261F67AAD0008C518E /* RSOAuthServiceTests.swift in Sources */,
+				34D511291F67ABAC008C518E /* RSFakeAPIClient.swift in Sources */,
+				34C41B171F64AF6600652313 /* RSOAuthRequestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		348ABE421F2AD80200152797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 348ABE351F2AD80200152797 /* RSNetworking */;
+			targetProxy = 348ABE411F2AD80200152797 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		340B2A13200B238300706780 /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CARTHAGE_SEARCH_PATH = ../../Carthage/Build/iOS;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3P6HE88T9S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(CARTHAGE_SEARCH_PATH)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INSTALL_GROUP = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Enterprise;
+		};
+		340B2A14200B238300706780 /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3P6HE88T9S;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				INFOPLIST_FILE = YQNetworking/Info.plist;
+				INSTALL_GROUP = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enterprise.yaqeenapp.YQNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Enterprise;
+		};
+		340B2A15200B238300706780 /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YQNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaqeenapp.YQNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Enterprise;
+		};
+		348ABE481F2AD80200152797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CARTHAGE_SEARCH_PATH = ../../Carthage/Build/iOS;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3P6HE88T9S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(CARTHAGE_SEARCH_PATH)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INSTALL_GROUP = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		348ABE491F2AD80200152797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CARTHAGE_SEARCH_PATH = ../../Carthage/Build/iOS;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3P6HE88T9S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(CARTHAGE_SEARCH_PATH)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INSTALL_GROUP = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		348ABE4B1F2AD80200152797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3P6HE88T9S;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				INFOPLIST_FILE = YQNetworking/Info.plist;
+				INSTALL_GROUP = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaqeenapp.YQNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		348ABE4C1F2AD80200152797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3P6HE88T9S;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				INFOPLIST_FILE = YQNetworking/Info.plist;
+				INSTALL_GROUP = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaqeenapp.YQNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		348ABE4E1F2AD80200152797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YQNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaqeenapp.YQNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		348ABE4F1F2AD80200152797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YQNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaqeenapp.YQNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		348ABE301F2AD80200152797 /* Build configuration list for PBXProject "RSNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348ABE481F2AD80200152797 /* Debug */,
+				340B2A13200B238300706780 /* Enterprise */,
+				348ABE491F2AD80200152797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348ABE4A1F2AD80200152797 /* Build configuration list for PBXNativeTarget "RSNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348ABE4B1F2AD80200152797 /* Debug */,
+				340B2A14200B238300706780 /* Enterprise */,
+				348ABE4C1F2AD80200152797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348ABE4D1F2AD80200152797 /* Build configuration list for PBXNativeTarget "RSNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348ABE4E1F2AD80200152797 /* Debug */,
+				340B2A15200B238300706780 /* Enterprise */,
+				348ABE4F1F2AD80200152797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 348ABE2D1F2AD80200152797 /* Project object */;
+}

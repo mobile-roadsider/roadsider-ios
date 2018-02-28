@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ServerConfigurations</key>
+	<dict>
+		<key>Production</key>
+		<dict>
+			<key>Environment</key>
+			<string>production</string>
+			<key>GrantType</key>
+			<string>password</string>
+			<key>Username</key>
+			<string>ios</string>
+			<key>Password</key>
+			<string>D)42SC6glJ36hfW*xiEvn0lK</string>
+			<key>Urls</key>
+			<dict>
+				<key>RSBaseUrl</key>
+				<string>https://Roadsiderinstitute.org</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

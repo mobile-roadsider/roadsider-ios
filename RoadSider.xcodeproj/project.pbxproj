@@ -1,0 +1,1392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3400BBDF1FD27A140074C1B4 /* RSLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3400BBDE1FD27A140074C1B4 /* RSLoginViewModel.swift */; };
+		340B2A0C200AB0F500706780 /* RSPostsResultsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340B2A0B200AB0F500706780 /* RSPostsResultsCoordinator.swift */; };
+		342A4B0620105EB6005F5F39 /* RSErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A4B0520105EB6005F5F39 /* RSErrorView.swift */; };
+		342C27801FAB732A00DA9FE2 /* YQFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C277F1FAB732A00DA9FE2 /* YQFontTests.swift */; };
+		342DC3E31FB96F9900DD2164 /* RSLoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC3E21FB96F9900DD2164 /* RSLoginCoordinator.swift */; };
+		342DC3E71FB96FE500DD2164 /* RSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DC3E61FB96FE500DD2164 /* RSLoginViewController.swift */; };
+		342DC3E81FB9716E00DD2164 /* YQUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342DC3E91FB9716E00DD2164 /* YQUIKit.framework */; };
+		343109AF1FC1427B00532FA2 /* RSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343109AE1FC1427B00532FA2 /* RSTextField.swift */; };
+		343CEC5E200F012E0033858B /* YQDataLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34CBC1E51FAD46A00004384D /* YQDataLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		343CEC60200F013C0033858B /* YQUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 342DC3E91FB9716E00DD2164 /* YQUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3442D92B1FA26EFA00AD19AA /* RSMainTabBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3442D92A1FA26EFA00AD19AA /* RSMainTabBarContainer.swift */; };
+		344315072002B2CA00146656 /* RSPostDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344315062002B2CA00146656 /* RSPostDetailsView.swift */; };
+		3443F9FE1FCFBA9000660A1B /* RSUserPrefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443F9FD1FCFBA9000660A1B /* RSUserPrefs.swift */; };
+		34541D0C20008DDC00033679 /* RSPostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34541D0B20008DDC00033679 /* RSPostDetailsViewController.swift */; };
+		34541D0E20008E5600033679 /* RSPostDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34541D0D20008E5600033679 /* RSPostDetailsCoordinator.swift */; };
+		345464281FDE00D000045979 /* RSProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345464271FDE00D000045979 /* RSProfileCoordinator.swift */; };
+		3454642B1FDE01CB00045979 /* RSProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454642A1FDE01CB00045979 /* RSProfileViewController.swift */; };
+		3454642D1FDE071B00045979 /* RSProfileLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454642C1FDE071B00045979 /* RSProfileLayout.swift */; };
+		346412F11FD480E2007C2951 /* Nimble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34E20F711FD4761C00CD4C7F /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		346412F21FD480E2007C2951 /* Quick.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34E20F6F1FD4760E00CD4C7F /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		346412F91FD48965007C2951 /* RSKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346412F81FD48964007C2951 /* RSKeyChain.swift */; };
+		346DC7441FCB568600C89BAD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 346DC7431FCB568600C89BAD /* GoogleService-Info.plist */; };
+		346F8FFC1F528B6600129364 /* RSAuthServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346F8FFB1F528B6600129364 /* RSAuthServiceHandler.swift */; };
+		3472BA7C1FAB75F200613CA7 /* YQColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472BA7B1FAB75F200613CA7 /* YQColorTests.swift */; };
+		3472BA801FAB78CC00613CA7 /* YQHomeTabViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472BA7F1FAB78CC00613CA7 /* YQHomeTabViewModelTests.swift */; };
+		3472BA831FAB78F000613CA7 /* YQHomeLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472BA821FAB78F000613CA7 /* YQHomeLayoutTests.swift */; };
+		3472BA861FAB797500613CA7 /* YQDefaultCoordinatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472BA851FAB797500613CA7 /* YQDefaultCoordinatorMock.swift */; };
+		3472BA891FAB7CCC00613CA7 /* YQSectionLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472BA871FAB7CCB00613CA7 /* YQSectionLayoutTests.swift */; };
+		3472BA8A1FAB7CCC00613CA7 /* YQVideosLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472BA881FAB7CCC00613CA7 /* YQVideosLayoutTests.swift */; };
+		3472BA8C1FAB7DC600613CA7 /* YQMainAppLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472BA8B1FAB7DC600613CA7 /* YQMainAppLayoutTests.swift */; };
+		347734C41FA1ADFD004EBC61 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734B51FA1ADF5004EBC61 /* Montserrat-Bold.ttf */; };
+		347734C51FA1ADFD004EBC61 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734BF1FA1ADF6004EBC61 /* Montserrat-BoldItalic.ttf */; };
+		347734C61FA1ADFD004EBC61 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734B91FA1ADF5004EBC61 /* Montserrat-ExtraBold.ttf */; };
+		347734C71FA1ADFD004EBC61 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734BB1FA1ADF6004EBC61 /* Montserrat-ExtraBoldItalic.ttf */; };
+		347734C81FA1ADFD004EBC61 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734B41FA1ADF5004EBC61 /* Montserrat-ExtraLight.ttf */; };
+		347734C91FA1ADFD004EBC61 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734B31FA1ADF5004EBC61 /* Montserrat-ExtraLightItalic.ttf */; };
+		347734CA1FA1ADFD004EBC61 /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 347734B81FA1ADF5004EBC61 /* Montserrat-Hairline.otf */; };
+		347734CB1FA1ADFD004EBC61 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734C11FA1ADF6004EBC61 /* Montserrat-Italic.ttf */; };
+		347734CC1FA1ADFD004EBC61 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734BA1FA1ADF5004EBC61 /* Montserrat-Light.ttf */; };
+		347734CD1FA1ADFD004EBC61 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734BC1FA1ADF6004EBC61 /* Montserrat-LightItalic.ttf */; };
+		347734CE1FA1ADFD004EBC61 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734C01FA1ADF6004EBC61 /* Montserrat-Medium.ttf */; };
+		347734CF1FA1ADFD004EBC61 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734BE1FA1ADF6004EBC61 /* Montserrat-MediumItalic.ttf */; };
+		347734D01FA1ADFD004EBC61 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734B61FA1ADF5004EBC61 /* Montserrat-Regular.ttf */; };
+		347734D11FA1ADFD004EBC61 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734BD1FA1ADF6004EBC61 /* Montserrat-SemiBold.ttf */; };
+		347734D21FA1ADFD004EBC61 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734C21FA1ADF6004EBC61 /* Montserrat-SemiBoldItalic.ttf */; };
+		347734D31FA1ADFD004EBC61 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734C31FA1ADF6004EBC61 /* Montserrat-Thin.ttf */; };
+		347734D41FA1ADFD004EBC61 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734B71FA1ADF5004EBC61 /* Montserrat-ThinItalic.ttf */; };
+		347DD71B1FE5E3E400BCC6B0 /* RSProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DD71A1FE5E3E400BCC6B0 /* RSProfileViewModel.swift */; };
+		347DD71D1FE64AD900BCC6B0 /* YQProfileLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DD71C1FE64AD900BCC6B0 /* YQProfileLayoutTests.swift */; };
+		3481F6CF1F9D47090016AB99 /* RSMainAppLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3481F6CE1F9D47090016AB99 /* RSMainAppLayout.swift */; };
+		3481F6D21F9D56F30016AB99 /* RSHomeTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3481F6D11F9D56F30016AB99 /* RSHomeTabViewModel.swift */; };
+		3482483C200161560073B8D3 /* RSHomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3482483B200161560073B8D3 /* RSHomeTabViewController.swift */; };
+		348623431FF0D48000ADCAE3 /* RSSectionsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348623421FF0D48000ADCAE3 /* RSSectionsCoordinator.swift */; };
+		348623461FF0D4BF00ADCAE3 /* RSSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348623451FF0D4BF00ADCAE3 /* RSSectionsViewController.swift */; };
+		348623481FF0D4EE00ADCAE3 /* RSSectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348623471FF0D4EE00ADCAE3 /* RSSectionViewCell.swift */; };
+		348FEB2A1FBC0223000B7994 /* RSSignInButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348FEB281FBC0223000B7994 /* RSSignInButtonView.swift */; };
+		348FEB2B1FBC0223000B7994 /* RSLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348FEB291FBC0223000B7994 /* RSLoginView.swift */; };
+		3495E1B11F52A0E8005DE4FA /* YQUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3495E1B21F52A0E8005DE4FA /* YQUtils.framework */; };
+		349EDD061F6D970D004B761F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EDD051F6D970D004B761F /* main.swift */; };
+		349EDD081F6D9771004B761F /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EDD071F6D9771004B761F /* TestingAppDelegate.swift */; };
+		34B1CFB71F2B07B0000076AB /* YQNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B1CFB61F2B07B0000076AB /* YQNetworking.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		34B1CFB81F2B07B0000076AB /* YQNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 34B1CFB61F2B07B0000076AB /* YQNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34CBC1E41FAD46A00004384D /* YQDataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CBC1E51FAD46A00004384D /* YQDataLayer.framework */; };
+		34D083D620029886001DA2FB /* RSPostDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D083D520029886001DA2FB /* RSPostDetailsViewModel.swift */; };
+		34D1D588202EA2F400A29FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D1D587202EA2F400A29FA5 /* LaunchScreen.storyboard */; };
+		34D8C09A1F2599720099433D /* RoadsiderAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8C0991F2599720099433D /* RoadsiderAppDelegate.swift */; };
+		34D8C0A11F2599720099433D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D8C0A01F2599720099433D /* Assets.xcassets */; };
+		34D8C0AF1F2599720099433D /* YaqeenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8C0AE1F2599720099433D /* YaqeenTests.swift */; };
+		34DC9276201EB4C1002AA0D5 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 343CEC65200F03D60033858B /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34DC9277201EB4C7002AA0D5 /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 343CEC66200F03D60033858B /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34DC9278201EB4ED002AA0D5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343CEC65200F03D60033858B /* Alamofire.framework */; };
+		34DC9279201EB4FA002AA0D5 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 343CEC66200F03D60033858B /* AlamofireImage.framework */; };
+		34DC927B201EB523002AA0D5 /* YQUtils.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3495E1B21F52A0E8005DE4FA /* YQUtils.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		34E1D5FA1FA0E20A0075D58D /* RSPostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1D5F91FA0E20A0075D58D /* RSPostCardView.swift */; };
+		34E1D5FD1FA130E80075D58D /* RSFontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1D5FC1FA130E80075D58D /* RSFontStyle.swift */; };
+		34E1D5FF1FA1502F0075D58D /* RSColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1D5FE1FA1502F0075D58D /* RSColorStyle.swift */; };
+		34E1D6021FA150FF0075D58D /* YQFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1D6011FA150FF0075D58D /* YQFont.swift */; };
+		34E1D6041FA151070075D58D /* YQColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E1D6031FA151070075D58D /* YQColor.swift */; };
+		34E1D6111FA1937D0075D58D /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 34E1D6101FA1937D0075D58D /* sample.json */; };
+		34E20F701FD4760E00CD4C7F /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E20F6F1FD4760E00CD4C7F /* Quick.framework */; };
+		34E20F721FD4761C00CD4C7F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E20F711FD4761C00CD4C7F /* Nimble.framework */; };
+		34EA69621F9C2CE800F9B774 /* RSCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA69611F9C2CE800F9B774 /* RSCoordinator.swift */; };
+		34EA69651F9C3EBE00F9B774 /* RSAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA69641F9C3EBE00F9B774 /* RSAppCoordinator.swift */; };
+		34EA69671F9C4F8400F9B774 /* RSTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA69661F9C4F8400F9B774 /* RSTabBarCoordinator.swift */; };
+		34EA696A1F9C512500F9B774 /* RSTabLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA69691F9C512500F9B774 /* RSTabLayout.swift */; };
+		34EA696C1F9C51F200F9B774 /* RSHomeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA696B1F9C51F200F9B774 /* RSHomeLayout.swift */; };
+		34EA696F1F9D286D00F9B774 /* RSVideosLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA696E1F9D286D00F9B774 /* RSVideosLayout.swift */; };
+		34EA69711F9D287B00F9B774 /* RSSectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA69701F9D287B00F9B774 /* RSSectionLayout.swift */; };
+		34EA69771F9D2A7000F9B774 /* RSHomeTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA69761F9D2A7000F9B774 /* RSHomeTabCoordinator.swift */; };
+		34F955751FF161470075A163 /* RSSectionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F955741FF161470075A163 /* RSSectionsViewModel.swift */; };
+		34F955771FF161870075A163 /* RSSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F955761FF161870075A163 /* RSSectionViewModel.swift */; };
+		34FF6E6F20089A0200C31134 /* RSPostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FF6E6E20089A0200C31134 /* RSPostListViewModel.swift */; };
+		945686D9427B8BD8343BC2F4 /* Pods_YaqeenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB26B11F9E7B1E02C1C9F81 /* Pods_YaqeenTests.framework */; };
+		BA27DC0CCA1223BE8ACF6D7C /* Pods_Yaqeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D483FE440F0F9B7AA02EA308 /* Pods_Yaqeen.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34D8C0AB1F2599720099433D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D8C08E1F2599720099433D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34D8C0951F2599720099433D;
+			remoteInfo = Yaqeen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		346412F01FD480CF007C2951 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				346412F11FD480E2007C2951 /* Nimble.framework in Embed Frameworks */,
+				346412F21FD480E2007C2951 /* Quick.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B1CFB51F2B07A6000076AB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				34DC927B201EB523002AA0D5 /* YQUtils.framework in Embed Frameworks */,
+				34DC9277201EB4C7002AA0D5 /* AlamofireImage.framework in Embed Frameworks */,
+				34DC9276201EB4C1002AA0D5 /* Alamofire.framework in Embed Frameworks */,
+				343CEC60200F013C0033858B /* YQUIKit.framework in Embed Frameworks */,
+				343CEC5E200F012E0033858B /* YQDataLayer.framework in Embed Frameworks */,
+				34B1CFB81F2B07B0000076AB /* YQNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19254F731311FD3D3EFA175B /* Pods-Yaqeen.enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yaqeen.enterprise.xcconfig"; path = "Pods/Target Support Files/Pods-Yaqeen/Pods-Yaqeen.enterprise.xcconfig"; sourceTree = "<group>"; };
+		1FEB9903E27A4D66BAF7830B /* Pods-YaqeenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaqeenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YaqeenTests/Pods-YaqeenTests.release.xcconfig"; sourceTree = "<group>"; };
+		333339B88C04C4EC5F03E51D /* Pods-YaqeenTests.enterprise.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaqeenTests.enterprise.xcconfig"; path = "Pods/Target Support Files/Pods-YaqeenTests/Pods-YaqeenTests.enterprise.xcconfig"; sourceTree = "<group>"; };
+		3400BBDE1FD27A140074C1B4 /* RSLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSLoginViewModel.swift; sourceTree = "<group>"; };
+		340B2A0B200AB0F500706780 /* RSPostsResultsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPostsResultsCoordinator.swift; sourceTree = "<group>"; };
+		342A4B0520105EB6005F5F39 /* RSErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSErrorView.swift; sourceTree = "<group>"; };
+		342C277F1FAB732A00DA9FE2 /* YQFontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQFontTests.swift; sourceTree = "<group>"; };
+		342DC3E21FB96F9900DD2164 /* RSLoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSLoginCoordinator.swift; sourceTree = "<group>"; };
+		342DC3E61FB96FE500DD2164 /* RSLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSLoginViewController.swift; sourceTree = "<group>"; };
+		342DC3E91FB9716E00DD2164 /* YQUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YQUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		343109AE1FC1427B00532FA2 /* RSTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTextField.swift; sourceTree = "<group>"; };
+		343CEC65200F03D60033858B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		343CEC66200F03D60033858B /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		3442D92A1FA26EFA00AD19AA /* RSMainTabBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSMainTabBarContainer.swift; sourceTree = "<group>"; };
+		344315062002B2CA00146656 /* RSPostDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPostDetailsView.swift; sourceTree = "<group>"; };
+		3443F9FD1FCFBA9000660A1B /* RSUserPrefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSUserPrefs.swift; sourceTree = "<group>"; };
+		34541D0B20008DDC00033679 /* RSPostDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPostDetailsViewController.swift; sourceTree = "<group>"; };
+		34541D0D20008E5600033679 /* RSPostDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPostDetailsCoordinator.swift; sourceTree = "<group>"; };
+		345464271FDE00D000045979 /* RSProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSProfileCoordinator.swift; sourceTree = "<group>"; };
+		3454642A1FDE01CB00045979 /* RSProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSProfileViewController.swift; sourceTree = "<group>"; };
+		3454642C1FDE071B00045979 /* RSProfileLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSProfileLayout.swift; sourceTree = "<group>"; };
+		346412F81FD48964007C2951 /* RSKeyChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSKeyChain.swift; sourceTree = "<group>"; };
+		346DC7431FCB568600C89BAD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		346F8FFB1F528B6600129364 /* RSAuthServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAuthServiceHandler.swift; sourceTree = "<group>"; };
+		3472BA7B1FAB75F200613CA7 /* YQColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQColorTests.swift; sourceTree = "<group>"; };
+		3472BA7F1FAB78CC00613CA7 /* YQHomeTabViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQHomeTabViewModelTests.swift; sourceTree = "<group>"; };
+		3472BA821FAB78F000613CA7 /* YQHomeLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQHomeLayoutTests.swift; sourceTree = "<group>"; };
+		3472BA851FAB797500613CA7 /* YQDefaultCoordinatorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQDefaultCoordinatorMock.swift; sourceTree = "<group>"; };
+		3472BA871FAB7CCB00613CA7 /* YQSectionLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQSectionLayoutTests.swift; sourceTree = "<group>"; };
+		3472BA881FAB7CCC00613CA7 /* YQVideosLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQVideosLayoutTests.swift; sourceTree = "<group>"; };
+		3472BA8B1FAB7DC600613CA7 /* YQMainAppLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQMainAppLayoutTests.swift; sourceTree = "<group>"; };
+		347734B31FA1ADF5004EBC61 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		347734B41FA1ADF5004EBC61 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		347734B51FA1ADF5004EBC61 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		347734B61FA1ADF5004EBC61 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		347734B71FA1ADF5004EBC61 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		347734B81FA1ADF5004EBC61 /* Montserrat-Hairline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Hairline.otf"; sourceTree = "<group>"; };
+		347734B91FA1ADF5004EBC61 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		347734BA1FA1ADF5004EBC61 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		347734BB1FA1ADF6004EBC61 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		347734BC1FA1ADF6004EBC61 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		347734BD1FA1ADF6004EBC61 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		347734BE1FA1ADF6004EBC61 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		347734BF1FA1ADF6004EBC61 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		347734C01FA1ADF6004EBC61 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		347734C11FA1ADF6004EBC61 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		347734C21FA1ADF6004EBC61 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		347734C31FA1ADF6004EBC61 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		347DD71A1FE5E3E400BCC6B0 /* RSProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSProfileViewModel.swift; sourceTree = "<group>"; };
+		347DD71C1FE64AD900BCC6B0 /* YQProfileLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQProfileLayoutTests.swift; sourceTree = "<group>"; };
+		3481F6CE1F9D47090016AB99 /* RSMainAppLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSMainAppLayout.swift; sourceTree = "<group>"; };
+		3481F6D11F9D56F30016AB99 /* RSHomeTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSHomeTabViewModel.swift; sourceTree = "<group>"; };
+		3482483B200161560073B8D3 /* RSHomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSHomeTabViewController.swift; sourceTree = "<group>"; };
+		348623421FF0D48000ADCAE3 /* RSSectionsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSectionsCoordinator.swift; sourceTree = "<group>"; };
+		348623451FF0D4BF00ADCAE3 /* RSSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSectionsViewController.swift; sourceTree = "<group>"; };
+		348623471FF0D4EE00ADCAE3 /* RSSectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSectionViewCell.swift; sourceTree = "<group>"; };
+		348FEB281FBC0223000B7994 /* RSSignInButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSSignInButtonView.swift; path = Views/RSSignInButtonView.swift; sourceTree = "<group>"; };
+		348FEB291FBC0223000B7994 /* RSLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSLoginView.swift; path = Views/RSLoginView.swift; sourceTree = "<group>"; };
+		3495E1B21F52A0E8005DE4FA /* YQUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YQUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		349EDD051F6D970D004B761F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		349EDD071F6D9771004B761F /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
+		34A065952028461200289691 /* Roadsider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Roadsider.entitlements; sourceTree = "<group>"; };
+		34A065962028467500289691 /* Roadsider-Appstore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Roadsider-Appstore.entitlements"; sourceTree = "<group>"; };
+		34B1CFB61F2B07B0000076AB /* YQNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YQNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CBC1E51FAD46A00004384D /* YQDataLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YQDataLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D083D520029886001DA2FB /* RSPostDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPostDetailsViewModel.swift; sourceTree = "<group>"; };
+		34D1D587202EA2F400A29FA5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34D8C0961F2599720099433D /* RoadSider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadSider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D8C0991F2599720099433D /* RoadsiderAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsiderAppDelegate.swift; sourceTree = "<group>"; };
+		34D8C0A01F2599720099433D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34D8C0A51F2599720099433D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D8C0AA1F2599720099433D /* RoadSiderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadSiderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D8C0AE1F2599720099433D /* YaqeenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaqeenTests.swift; sourceTree = "<group>"; };
+		34D8C0B01F2599720099433D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E1D5F91FA0E20A0075D58D /* RSPostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPostCardView.swift; sourceTree = "<group>"; };
+		34E1D5FC1FA130E80075D58D /* RSFontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSFontStyle.swift; sourceTree = "<group>"; };
+		34E1D5FE1FA1502F0075D58D /* RSColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSColorStyle.swift; sourceTree = "<group>"; };
+		34E1D6011FA150FF0075D58D /* YQFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQFont.swift; sourceTree = "<group>"; };
+		34E1D6031FA151070075D58D /* YQColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YQColor.swift; sourceTree = "<group>"; };
+		34E1D6101FA1937D0075D58D /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		34E20F6F1FD4760E00CD4C7F /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		34E20F711FD4761C00CD4C7F /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		34EA69611F9C2CE800F9B774 /* RSCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCoordinator.swift; sourceTree = "<group>"; };
+		34EA69641F9C3EBE00F9B774 /* RSAppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAppCoordinator.swift; sourceTree = "<group>"; };
+		34EA69661F9C4F8400F9B774 /* RSTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTabBarCoordinator.swift; sourceTree = "<group>"; };
+		34EA69691F9C512500F9B774 /* RSTabLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSTabLayout.swift; sourceTree = "<group>"; };
+		34EA696B1F9C51F200F9B774 /* RSHomeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSHomeLayout.swift; sourceTree = "<group>"; };
+		34EA696E1F9D286D00F9B774 /* RSVideosLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSVideosLayout.swift; sourceTree = "<group>"; };
+		34EA69701F9D287B00F9B774 /* RSSectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSectionLayout.swift; sourceTree = "<group>"; };
+		34EA69761F9D2A7000F9B774 /* RSHomeTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSHomeTabCoordinator.swift; sourceTree = "<group>"; };
+		34F955741FF161470075A163 /* RSSectionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSectionsViewModel.swift; sourceTree = "<group>"; };
+		34F955761FF161870075A163 /* RSSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSectionViewModel.swift; sourceTree = "<group>"; };
+		34FF6E6E20089A0200C31134 /* RSPostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSPostListViewModel.swift; sourceTree = "<group>"; };
+		62CE6C189730B3CFB7CFAF35 /* Pods-YaqeenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YaqeenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YaqeenTests/Pods-YaqeenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C000E04ECBF52EA2C4D0973 /* Pods-Yaqeen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yaqeen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yaqeen/Pods-Yaqeen.release.xcconfig"; sourceTree = "<group>"; };
+		AFB26B11F9E7B1E02C1C9F81 /* Pods_YaqeenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YaqeenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D483FE440F0F9B7AA02EA308 /* Pods_Yaqeen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yaqeen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD492D4DDD8DEA5BB2B7905 /* Pods-Yaqeen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yaqeen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yaqeen/Pods-Yaqeen.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34D8C0931F2599720099433D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DC9279201EB4FA002AA0D5 /* AlamofireImage.framework in Frameworks */,
+				34DC9278201EB4ED002AA0D5 /* Alamofire.framework in Frameworks */,
+				34CBC1E41FAD46A00004384D /* YQDataLayer.framework in Frameworks */,
+				3495E1B11F52A0E8005DE4FA /* YQUtils.framework in Frameworks */,
+				342DC3E81FB9716E00DD2164 /* YQUIKit.framework in Frameworks */,
+				34B1CFB71F2B07B0000076AB /* YQNetworking.framework in Frameworks */,
+				BA27DC0CCA1223BE8ACF6D7C /* Pods_Yaqeen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D8C0A71F2599720099433D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E20F721FD4761C00CD4C7F /* Nimble.framework in Frameworks */,
+				34E20F701FD4760E00CD4C7F /* Quick.framework in Frameworks */,
+				945686D9427B8BD8343BC2F4 /* Pods_YaqeenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3400BBDD1FD279FC0074C1B4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3400BBDE1FD27A140074C1B4 /* RSLoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3418322A1F9FF20000CCBDA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34E1D5F91FA0E20A0075D58D /* RSPostCardView.swift */,
+				3482483B200161560073B8D3 /* RSHomeTabViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		342C277D1FAB730F00DA9FE2 /* Brand */ = {
+			isa = PBXGroup;
+			children = (
+				342C277E1FAB731500DA9FE2 /* Yaqeen */,
+			);
+			path = Brand;
+			sourceTree = "<group>";
+		};
+		342C277E1FAB731500DA9FE2 /* Yaqeen */ = {
+			isa = PBXGroup;
+			children = (
+				342C277F1FAB732A00DA9FE2 /* YQFontTests.swift */,
+				3472BA7B1FAB75F200613CA7 /* YQColorTests.swift */,
+			);
+			path = Yaqeen;
+			sourceTree = "<group>";
+		};
+		342DC3E41FB96FCB00DD2164 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3400BBDD1FD279FC0074C1B4 /* ViewModels */,
+				348FEB271FBC020D000B7994 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		343109AD1FC1426E00532FA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				343109AE1FC1427B00532FA2 /* RSTextField.swift */,
+				342A4B0520105EB6005F5F39 /* RSErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3443F9FC1FCFBA7800660A1B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				346412F81FD48964007C2951 /* RSKeyChain.swift */,
+				3443F9FD1FCFBA9000660A1B /* RSUserPrefs.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		34541D0920008DAB00033679 /* PostDetails */ = {
+			isa = PBXGroup;
+			children = (
+				34541D0F20008E8200033679 /* ViewModel */,
+				34541D0A20008DC600033679 /* View */,
+			);
+			path = PostDetails;
+			sourceTree = "<group>";
+		};
+		34541D0A20008DC600033679 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34541D0B20008DDC00033679 /* RSPostDetailsViewController.swift */,
+				344315062002B2CA00146656 /* RSPostDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34541D0F20008E8200033679 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				34D083D520029886001DA2FB /* RSPostDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		345464291FDE01B900045979 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				347DD7191FE5E3CF00BCC6B0 /* ViewModel */,
+				34D08C011FE71494001E6D78 /* Controller */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		346F85B21FAD49FA006D3E53 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				34D8C0991F2599720099433D /* RoadsiderAppDelegate.swift */,
+				349EDD071F6D9771004B761F /* TestingAppDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		3472BA7D1FAB76DD00613CA7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3472BA7E1FAB76E800613CA7 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3472BA7E1FAB76E800613CA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3472BA7F1FAB78CC00613CA7 /* YQHomeTabViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3472BA811FAB78DD00613CA7 /* MainAppLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3472BA871FAB7CCB00613CA7 /* YQSectionLayoutTests.swift */,
+				3472BA881FAB7CCC00613CA7 /* YQVideosLayoutTests.swift */,
+				3472BA821FAB78F000613CA7 /* YQHomeLayoutTests.swift */,
+				3472BA8B1FAB7DC600613CA7 /* YQMainAppLayoutTests.swift */,
+				347DD71C1FE64AD900BCC6B0 /* YQProfileLayoutTests.swift */,
+			);
+			path = MainAppLayout;
+			sourceTree = "<group>";
+		};
+		3472BA841FAB796300613CA7 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				3472BA851FAB797500613CA7 /* YQDefaultCoordinatorMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		347DD7191FE5E3CF00BCC6B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				347DD71A1FE5E3E400BCC6B0 /* RSProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3481F6D01F9D536F0016AB99 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3481F6D11F9D56F30016AB99 /* RSHomeTabViewModel.swift */,
+				34E1D6101FA1937D0075D58D /* sample.json */,
+				34FF6E6E20089A0200C31134 /* RSPostListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3481F6DB1F9DC2820016AB99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3442D92A1FA26EFA00AD19AA /* RSMainTabBarContainer.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		348623411FF0D41D00ADCAE3 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				34F955781FF16DD60075A163 /* ViewModels */,
+				348623441FF0D4B000ADCAE3 /* Views */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		348623441FF0D4B000ADCAE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				348623451FF0D4BF00ADCAE3 /* RSSectionsViewController.swift */,
+				348623471FF0D4EE00ADCAE3 /* RSSectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		348ABE591F2ADB2200152797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				343CEC65200F03D60033858B /* Alamofire.framework */,
+				343CEC66200F03D60033858B /* AlamofireImage.framework */,
+				34E20F711FD4761C00CD4C7F /* Nimble.framework */,
+				34E20F6F1FD4760E00CD4C7F /* Quick.framework */,
+				342DC3E91FB9716E00DD2164 /* YQUIKit.framework */,
+				34CBC1E51FAD46A00004384D /* YQDataLayer.framework */,
+				3495E1B21F52A0E8005DE4FA /* YQUtils.framework */,
+				34B1CFB61F2B07B0000076AB /* YQNetworking.framework */,
+				D483FE440F0F9B7AA02EA308 /* Pods_Yaqeen.framework */,
+				AFB26B11F9E7B1E02C1C9F81 /* Pods_YaqeenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		348FEB271FBC020D000B7994 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				348FEB291FBC0223000B7994 /* RSLoginView.swift */,
+				348FEB281FBC0223000B7994 /* RSSignInButtonView.swift */,
+				342DC3E61FB96FE500DD2164 /* RSLoginViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3495E1B61F52A14E005DE4FA /* YQServiceHandler */ = {
+			isa = PBXGroup;
+			children = (
+				346F8FFB1F528B6600129364 /* RSAuthServiceHandler.swift */,
+			);
+			path = YQServiceHandler;
+			sourceTree = "<group>";
+		};
+		34D08C011FE71494001E6D78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3454642A1FDE01CB00045979 /* RSProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34D8C08D1F2599720099433D = {
+			isa = PBXGroup;
+			children = (
+				34D8C0981F2599720099433D /* Roadsider */,
+				34D8C0AD1F2599720099433D /* YaqeenTests */,
+				34D8C0971F2599720099433D /* Products */,
+				348ABE591F2ADB2200152797 /* Frameworks */,
+				A036D76FCDA8B6CF71BA40CE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		34D8C0971F2599720099433D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D8C0961F2599720099433D /* RoadSider.app */,
+				34D8C0AA1F2599720099433D /* RoadSiderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34D8C0981F2599720099433D /* Roadsider */ = {
+			isa = PBXGroup;
+			children = (
+				343109AD1FC1426E00532FA2 /* Views */,
+				34541D0920008DAB00033679 /* PostDetails */,
+				348623411FF0D41D00ADCAE3 /* Sections */,
+				345464291FDE01B900045979 /* Profile */,
+				342DC3E41FB96FCB00DD2164 /* Login */,
+				34EA696D1F9D25F500F9B774 /* Home */,
+				34EA69681F9C510C00F9B774 /* MainAppLayout */,
+				3495E1B61F52A14E005DE4FA /* YQServiceHandler */,
+				34EA69631F9C3EAC00F9B774 /* Coordinators */,
+				346F85B21FAD49FA006D3E53 /* AppDelegates */,
+				3443F9FC1FCFBA7800660A1B /* Utils */,
+				34E1D5FB1FA130D70075D58D /* Brand */,
+				34E1D60A1FA187010075D58D /* Resources */,
+				34D8C0A51F2599720099433D /* Info.plist */,
+				34D1D587202EA2F400A29FA5 /* LaunchScreen.storyboard */,
+				34A065952028461200289691 /* Roadsider.entitlements */,
+				34A065962028467500289691 /* Roadsider-Appstore.entitlements */,
+				346DC7431FCB568600C89BAD /* GoogleService-Info.plist */,
+				349EDD051F6D970D004B761F /* main.swift */,
+			);
+			path = Roadsider;
+			sourceTree = "<group>";
+		};
+		34D8C0AD1F2599720099433D /* YaqeenTests */ = {
+			isa = PBXGroup;
+			children = (
+				3472BA841FAB796300613CA7 /* Mocks */,
+				3472BA811FAB78DD00613CA7 /* MainAppLayout */,
+				3472BA7D1FAB76DD00613CA7 /* Home */,
+				342C277D1FAB730F00DA9FE2 /* Brand */,
+				34D8C0AE1F2599720099433D /* YaqeenTests.swift */,
+				34D8C0B01F2599720099433D /* Info.plist */,
+			);
+			path = YaqeenTests;
+			sourceTree = "<group>";
+		};
+		34E1D5FB1FA130D70075D58D /* Brand */ = {
+			isa = PBXGroup;
+			children = (
+				34E1D6001FA150EA0075D58D /* Yaqeen */,
+				34E1D5FC1FA130E80075D58D /* RSFontStyle.swift */,
+				34E1D5FE1FA1502F0075D58D /* RSColorStyle.swift */,
+			);
+			path = Brand;
+			sourceTree = "<group>";
+		};
+		34E1D6001FA150EA0075D58D /* Yaqeen */ = {
+			isa = PBXGroup;
+			children = (
+				34E1D6011FA150FF0075D58D /* YQFont.swift */,
+				34E1D6031FA151070075D58D /* YQColor.swift */,
+			);
+			path = Yaqeen;
+			sourceTree = "<group>";
+		};
+		34E1D60A1FA187010075D58D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34D8C0A01F2599720099433D /* Assets.xcassets */,
+				34E1D60B1FA187080075D58D /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34E1D60B1FA187080075D58D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				347734B51FA1ADF5004EBC61 /* Montserrat-Bold.ttf */,
+				347734BF1FA1ADF6004EBC61 /* Montserrat-BoldItalic.ttf */,
+				347734B91FA1ADF5004EBC61 /* Montserrat-ExtraBold.ttf */,
+				347734BB1FA1ADF6004EBC61 /* Montserrat-ExtraBoldItalic.ttf */,
+				347734B41FA1ADF5004EBC61 /* Montserrat-ExtraLight.ttf */,
+				347734B31FA1ADF5004EBC61 /* Montserrat-ExtraLightItalic.ttf */,
+				347734B81FA1ADF5004EBC61 /* Montserrat-Hairline.otf */,
+				347734C11FA1ADF6004EBC61 /* Montserrat-Italic.ttf */,
+				347734BA1FA1ADF5004EBC61 /* Montserrat-Light.ttf */,
+				347734BC1FA1ADF6004EBC61 /* Montserrat-LightItalic.ttf */,
+				347734C01FA1ADF6004EBC61 /* Montserrat-Medium.ttf */,
+				347734BE1FA1ADF6004EBC61 /* Montserrat-MediumItalic.ttf */,
+				347734B61FA1ADF5004EBC61 /* Montserrat-Regular.ttf */,
+				347734BD1FA1ADF6004EBC61 /* Montserrat-SemiBold.ttf */,
+				347734C21FA1ADF6004EBC61 /* Montserrat-SemiBoldItalic.ttf */,
+				347734C31FA1ADF6004EBC61 /* Montserrat-Thin.ttf */,
+				347734B71FA1ADF5004EBC61 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		34EA69631F9C3EAC00F9B774 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				34EA69611F9C2CE800F9B774 /* RSCoordinator.swift */,
+				34EA69641F9C3EBE00F9B774 /* RSAppCoordinator.swift */,
+				34EA69661F9C4F8400F9B774 /* RSTabBarCoordinator.swift */,
+				34EA69761F9D2A7000F9B774 /* RSHomeTabCoordinator.swift */,
+				342DC3E21FB96F9900DD2164 /* RSLoginCoordinator.swift */,
+				345464271FDE00D000045979 /* RSProfileCoordinator.swift */,
+				348623421FF0D48000ADCAE3 /* RSSectionsCoordinator.swift */,
+				34541D0D20008E5600033679 /* RSPostDetailsCoordinator.swift */,
+				340B2A0B200AB0F500706780 /* RSPostsResultsCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		34EA69681F9C510C00F9B774 /* MainAppLayout */ = {
+			isa = PBXGroup;
+			children = (
+				34EA69691F9C512500F9B774 /* RSTabLayout.swift */,
+				34EA696B1F9C51F200F9B774 /* RSHomeLayout.swift */,
+				34EA696E1F9D286D00F9B774 /* RSVideosLayout.swift */,
+				34EA69701F9D287B00F9B774 /* RSSectionLayout.swift */,
+				3481F6CE1F9D47090016AB99 /* RSMainAppLayout.swift */,
+				3454642C1FDE071B00045979 /* RSProfileLayout.swift */,
+			);
+			path = MainAppLayout;
+			sourceTree = "<group>";
+		};
+		34EA696D1F9D25F500F9B774 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3418322A1F9FF20000CCBDA9 /* Views */,
+				3481F6D01F9D536F0016AB99 /* ViewModel */,
+				3481F6DB1F9DC2820016AB99 /* Controllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		34F955781FF16DD60075A163 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				34F955741FF161470075A163 /* RSSectionsViewModel.swift */,
+				34F955761FF161870075A163 /* RSSectionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A036D76FCDA8B6CF71BA40CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAD492D4DDD8DEA5BB2B7905 /* Pods-Yaqeen.debug.xcconfig */,
+				7C000E04ECBF52EA2C4D0973 /* Pods-Yaqeen.release.xcconfig */,
+				62CE6C189730B3CFB7CFAF35 /* Pods-YaqeenTests.debug.xcconfig */,
+				1FEB9903E27A4D66BAF7830B /* Pods-YaqeenTests.release.xcconfig */,
+				19254F731311FD3D3EFA175B /* Pods-Yaqeen.enterprise.xcconfig */,
+				333339B88C04C4EC5F03E51D /* Pods-YaqeenTests.enterprise.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34D8C0951F2599720099433D /* RoadSider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D8C0B31F2599720099433D /* Build configuration list for PBXNativeTarget "RoadSider" */;
+			buildPhases = (
+				7A4AF4F23DFC75D6F1D62501 /* [CP] Check Pods Manifest.lock */,
+				34D8C0931F2599720099433D /* Frameworks */,
+				34D8C0921F2599720099433D /* Sources */,
+				34D8C0941F2599720099433D /* Resources */,
+				34B1CFB51F2B07A6000076AB /* Embed Frameworks */,
+				34CC13371FF2BE2E009AFBB0 /* Crashlytics Dsym Upload */,
+				34DC928A201EC51A002AA0D5 /* Carthage Copy */,
+				BC6E12A36D6CA1DC63DECFCB /* [CP] Embed Pods Frameworks */,
+				9E0D9D7EE98B60F11F42130E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadSider;
+			productName = Yaqeen;
+			productReference = 34D8C0961F2599720099433D /* RoadSider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34D8C0A91F2599720099433D /* RoadSiderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D8C0B61F2599720099433D /* Build configuration list for PBXNativeTarget "RoadSiderTests" */;
+			buildPhases = (
+				42EBC24A2B16589500382707 /* [CP] Check Pods Manifest.lock */,
+				341742561FF2102C00AC7F23 /* Check Carthage */,
+				34D8C0A61F2599720099433D /* Sources */,
+				34D8C0A71F2599720099433D /* Frameworks */,
+				34D8C0A81F2599720099433D /* Resources */,
+				346412F01FD480CF007C2951 /* Embed Frameworks */,
+				DF142BA878A7CEC4FB88F149 /* [CP] Embed Pods Frameworks */,
+				236A9228C382C310FF657127 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34D8C0AC1F2599720099433D /* PBXTargetDependency */,
+			);
+			name = RoadSiderTests;
+			productName = YaqeenTests;
+			productReference = 34D8C0AA1F2599720099433D /* RoadSiderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34D8C08E1F2599720099433D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Yaqeen;
+				TargetAttributes = {
+					34D8C0951F2599720099433D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3P6HE88T9S;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					34D8C0A91F2599720099433D = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
+						TestTargetID = 34D8C0951F2599720099433D;
+					};
+				};
+			};
+			buildConfigurationList = 34D8C0911F2599720099433D /* Build configuration list for PBXProject "RoadSider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34D8C08D1F2599720099433D;
+			productRefGroup = 34D8C0971F2599720099433D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34D8C0951F2599720099433D /* RoadSider */,
+				34D8C0A91F2599720099433D /* RoadSiderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34D8C0941F2599720099433D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347734C41FA1ADFD004EBC61 /* Montserrat-Bold.ttf in Resources */,
+				347734C51FA1ADFD004EBC61 /* Montserrat-BoldItalic.ttf in Resources */,
+				347734C61FA1ADFD004EBC61 /* Montserrat-ExtraBold.ttf in Resources */,
+				347734C71FA1ADFD004EBC61 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				347734C81FA1ADFD004EBC61 /* Montserrat-ExtraLight.ttf in Resources */,
+				347734C91FA1ADFD004EBC61 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				347734CA1FA1ADFD004EBC61 /* Montserrat-Hairline.otf in Resources */,
+				347734CB1FA1ADFD004EBC61 /* Montserrat-Italic.ttf in Resources */,
+				347734CC1FA1ADFD004EBC61 /* Montserrat-Light.ttf in Resources */,
+				34D1D588202EA2F400A29FA5 /* LaunchScreen.storyboard in Resources */,
+				347734CD1FA1ADFD004EBC61 /* Montserrat-LightItalic.ttf in Resources */,
+				347734CE1FA1ADFD004EBC61 /* Montserrat-Medium.ttf in Resources */,
+				347734CF1FA1ADFD004EBC61 /* Montserrat-MediumItalic.ttf in Resources */,
+				347734D01FA1ADFD004EBC61 /* Montserrat-Regular.ttf in Resources */,
+				347734D11FA1ADFD004EBC61 /* Montserrat-SemiBold.ttf in Resources */,
+				347734D21FA1ADFD004EBC61 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				347734D31FA1ADFD004EBC61 /* Montserrat-Thin.ttf in Resources */,
+				347734D41FA1ADFD004EBC61 /* Montserrat-ThinItalic.ttf in Resources */,
+				34E1D6111FA1937D0075D58D /* sample.json in Resources */,
+				34D8C0A11F2599720099433D /* Assets.xcassets in Resources */,
+				346DC7441FCB568600C89BAD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D8C0A81F2599720099433D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		236A9228C382C310FF657127 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YaqeenTests/Pods-YaqeenTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		341742561FF2102C00AC7F23 /* Check Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.Framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.Framework",
+			);
+			name = "Check Carthage";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n\n\"$SRCROOT\"/scripts/carthage.sh";
+		};
+		34CC13371FF2BE2E009AFBB0 /* Crashlytics Dsym Upload */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Crashlytics Dsym Upload";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 5b33a19cbbfccdf660f61540d0426f96a005caf3 2e75b04a5386a40128195580a0822958ac2635d404a0eb107a9543ec14e927bc";
+		};
+		34DC928A201EC51A002AA0D5 /* Carthage Copy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+			);
+			name = "Carthage Copy";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		42EBC24A2B16589500382707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YaqeenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A4AF4F23DFC75D6F1D62501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yaqeen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E0D9D7EE98B60F11F42130E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yaqeen/Pods-Yaqeen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6E12A36D6CA1DC63DECFCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Yaqeen/Pods-Yaqeen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yaqeen/Pods-Yaqeen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF142BA878A7CEC4FB88F149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YaqeenTests/Pods-YaqeenTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YaqeenTests/Pods-YaqeenTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34D8C0921F2599720099433D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3454642B1FDE01CB00045979 /* RSProfileViewController.swift in Sources */,
+				342DC3E31FB96F9900DD2164 /* RSLoginCoordinator.swift in Sources */,
+				3482483C200161560073B8D3 /* RSHomeTabViewController.swift in Sources */,
+				344315072002B2CA00146656 /* RSPostDetailsView.swift in Sources */,
+				348623461FF0D4BF00ADCAE3 /* RSSectionsViewController.swift in Sources */,
+				347DD71B1FE5E3E400BCC6B0 /* RSProfileViewModel.swift in Sources */,
+				342A4B0620105EB6005F5F39 /* RSErrorView.swift in Sources */,
+				346412F91FD48965007C2951 /* RSKeyChain.swift in Sources */,
+				34EA69771F9D2A7000F9B774 /* RSHomeTabCoordinator.swift in Sources */,
+				3481F6D21F9D56F30016AB99 /* RSHomeTabViewModel.swift in Sources */,
+				34EA696C1F9C51F200F9B774 /* RSHomeLayout.swift in Sources */,
+				34FF6E6F20089A0200C31134 /* RSPostListViewModel.swift in Sources */,
+				346F8FFC1F528B6600129364 /* RSAuthServiceHandler.swift in Sources */,
+				34E1D6041FA151070075D58D /* YQColor.swift in Sources */,
+				3443F9FE1FCFBA9000660A1B /* RSUserPrefs.swift in Sources */,
+				3454642D1FDE071B00045979 /* RSProfileLayout.swift in Sources */,
+				34E1D5FA1FA0E20A0075D58D /* RSPostCardView.swift in Sources */,
+				343109AF1FC1427B00532FA2 /* RSTextField.swift in Sources */,
+				34F955771FF161870075A163 /* RSSectionViewModel.swift in Sources */,
+				34541D0C20008DDC00033679 /* RSPostDetailsViewController.swift in Sources */,
+				348FEB2A1FBC0223000B7994 /* RSSignInButtonView.swift in Sources */,
+				342DC3E71FB96FE500DD2164 /* RSLoginViewController.swift in Sources */,
+				340B2A0C200AB0F500706780 /* RSPostsResultsCoordinator.swift in Sources */,
+				34EA69671F9C4F8400F9B774 /* RSTabBarCoordinator.swift in Sources */,
+				3400BBDF1FD27A140074C1B4 /* RSLoginViewModel.swift in Sources */,
+				34EA69621F9C2CE800F9B774 /* RSCoordinator.swift in Sources */,
+				34EA696F1F9D286D00F9B774 /* RSVideosLayout.swift in Sources */,
+				34E1D5FD1FA130E80075D58D /* RSFontStyle.swift in Sources */,
+				349EDD081F6D9771004B761F /* TestingAppDelegate.swift in Sources */,
+				349EDD061F6D970D004B761F /* main.swift in Sources */,
+				34E1D5FF1FA1502F0075D58D /* RSColorStyle.swift in Sources */,
+				34E1D6021FA150FF0075D58D /* YQFont.swift in Sources */,
+				34D8C09A1F2599720099433D /* RoadsiderAppDelegate.swift in Sources */,
+				348623481FF0D4EE00ADCAE3 /* RSSectionViewCell.swift in Sources */,
+				34EA69711F9D287B00F9B774 /* RSSectionLayout.swift in Sources */,
+				348623431FF0D48000ADCAE3 /* RSSectionsCoordinator.swift in Sources */,
+				345464281FDE00D000045979 /* RSProfileCoordinator.swift in Sources */,
+				3481F6CF1F9D47090016AB99 /* RSMainAppLayout.swift in Sources */,
+				34F955751FF161470075A163 /* RSSectionsViewModel.swift in Sources */,
+				3442D92B1FA26EFA00AD19AA /* RSMainTabBarContainer.swift in Sources */,
+				34D083D620029886001DA2FB /* RSPostDetailsViewModel.swift in Sources */,
+				34EA696A1F9C512500F9B774 /* RSTabLayout.swift in Sources */,
+				348FEB2B1FBC0223000B7994 /* RSLoginView.swift in Sources */,
+				34EA69651F9C3EBE00F9B774 /* RSAppCoordinator.swift in Sources */,
+				34541D0E20008E5600033679 /* RSPostDetailsCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D8C0A61F2599720099433D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3472BA891FAB7CCC00613CA7 /* YQSectionLayoutTests.swift in Sources */,
+				342C27801FAB732A00DA9FE2 /* YQFontTests.swift in Sources */,
+				3472BA801FAB78CC00613CA7 /* YQHomeTabViewModelTests.swift in Sources */,
+				3472BA8A1FAB7CCC00613CA7 /* YQVideosLayoutTests.swift in Sources */,
+				3472BA7C1FAB75F200613CA7 /* YQColorTests.swift in Sources */,
+				3472BA831FAB78F000613CA7 /* YQHomeLayoutTests.swift in Sources */,
+				3472BA861FAB797500613CA7 /* YQDefaultCoordinatorMock.swift in Sources */,
+				347DD71D1FE64AD900BCC6B0 /* YQProfileLayoutTests.swift in Sources */,
+				34D8C0AF1F2599720099433D /* YaqeenTests.swift in Sources */,
+				3472BA8C1FAB7DC600613CA7 /* YQMainAppLayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34D8C0AC1F2599720099433D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34D8C0951F2599720099433D /* RoadSider */;
+			targetProxy = 34D8C0AB1F2599720099433D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		340B2A0D200AE4E000706780 /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_GROUP = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_GROUP = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Enterprise;
+		};
+		340B2A0E200AE4E000706780 /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19254F731311FD3D3EFA175B /* Pods-Yaqeen.enterprise.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Yaqeen/Yaqeen.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				INFOPLIST_FILE = Yaqeen/Info.plist;
+				INSTALL_GROUP = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.enterprise.yaqeenapp.Yaqeen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Enterprise;
+		};
+		340B2A0F200AE4E000706780 /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333339B88C04C4EC5F03E51D /* Pods-YaqeenTests.enterprise.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YaqeenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaqeenapp.YaqeenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadSider.app/RoadSider";
+			};
+			name = Enterprise;
+		};
+		34D8C0B11F2599720099433D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_GROUP = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Niyaz Ahmed Amanullah (MV32C8MCD7)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_GROUP = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34D8C0B21F2599720099433D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_GROUP = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_GROUP = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34D8C0B41F2599720099433D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD492D4DDD8DEA5BB2B7905 /* Pods-Yaqeen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Yaqeen/Yaqeen.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3P6HE88T9S;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				INFOPLIST_FILE = Yaqeen/Info.plist;
+				INSTALL_GROUP = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaqeenapp.Yaqeen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "34ba7cba-85e2-4838-b8c7-e6126e4ab0be";
+				PROVISIONING_PROFILE_SPECIFIER = "Yaqeen Temp Dev";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		34D8C0B51F2599720099433D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C000E04ECBF52EA2C4D0973 /* Pods-Yaqeen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Yaqeen/Yaqeen-Appstore.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3P6HE88T9S;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				INFOPLIST_FILE = Yaqeen/Info.plist;
+				INSTALL_GROUP = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaqeenapp.Yaqeen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b807c12d-88ab-4c45-bd25-2b85c63fb686";
+				PROVISIONING_PROFILE_SPECIFIER = "Yaqeen Appstore";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		34D8C0B71F2599720099433D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CE6C189730B3CFB7CFAF35 /* Pods-YaqeenTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YaqeenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaqeenapp.YaqeenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadSider.app/RoadSider";
+			};
+			name = Debug;
+		};
+		34D8C0B81F2599720099433D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEB9903E27A4D66BAF7830B /* Pods-YaqeenTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YaqeenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaqeenapp.YaqeenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadSider.app/RoadSider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34D8C0911F2599720099433D /* Build configuration list for PBXProject "RoadSider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D8C0B11F2599720099433D /* Debug */,
+				340B2A0D200AE4E000706780 /* Enterprise */,
+				34D8C0B21F2599720099433D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D8C0B31F2599720099433D /* Build configuration list for PBXNativeTarget "RoadSider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D8C0B41F2599720099433D /* Debug */,
+				340B2A0E200AE4E000706780 /* Enterprise */,
+				34D8C0B51F2599720099433D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D8C0B61F2599720099433D /* Build configuration list for PBXNativeTarget "RoadSiderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D8C0B71F2599720099433D /* Debug */,
+				340B2A0F200AE4E000706780 /* Enterprise */,
+				34D8C0B81F2599720099433D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34D8C08E1F2599720099433D /* Project object */;
+}

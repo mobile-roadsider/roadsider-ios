@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Profile/ViewModel/YQProfileViewModel.swift"
+            timestampString = "539765565.870651"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "copyRight"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/PostDetails/View/YQPostDetailsViewController.swift"
+            timestampString = "540629733.533585"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "openContentLinks(URL:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "malloc_error_break"
+            moduleName = "">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "malloc_error_break"
+                  moduleName = "libsystem_malloc.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Home/Views/YQHomeTabViewController.swift"
+            timestampString = "539926570.8129621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Yaqeen.YQHomeTabViewController.(appStarted in _9A98CF0F9609C7B0B5340D9F867A329D)(Foundation.Notification) -&gt; ()"
+                  moduleName = "Yaqeen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
+                  timestampString = "538807258.5185339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "549">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Yaqeen.YQHomeTabViewController.(appStarted in _9A98CF0F9609C7B0B5340D9F867A329D)(Foundation.Notification) -&gt; ()"
+                  moduleName = "Yaqeen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
+                  timestampString = "538807258.521289"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "187"
+                  endingLineNumber = "187"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Home/Views/YQHomeTabViewController.swift"
+            timestampString = "539926570.813363"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "refreshOptions(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/YQUtils/YQUtils/YQUtility.swift"
+            timestampString = "539195571.735152"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "isValidPassword(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Home/Views/YQHomeTabViewController.swift"
+            timestampString = "539926570.813686"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Home/Views/YQHomeTabViewController.swift"
+            timestampString = "539926570.8142329"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Coordinators/YQLoginCoordinator.swift"
+            timestampString = "539765565.871122"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "configureServiceTokenHandler()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Coordinators/YQLoginCoordinator.swift"
+            timestampString = "539765565.871184"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "configureServiceTokenHandler()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Coordinators/YQLoginCoordinator.swift"
+            timestampString = "539765565.871289"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "skipLoginOrRegistration()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Login/YQLoginViewController.swift"
+            timestampString = "539834080.331874"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Login/ViewModels/YQLoginViewModel.swift"
+            timestampString = "539765565.871388"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "skipLoginOrRegistration()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Coordinators/YQProfileCoordinator.swift"
+            timestampString = "539828490.712623"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Home/Views/YQHomeTabViewController.swift"
+            timestampString = "539926570.81462"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Yaqeen.YQHomeTabViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Yaqeen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
+                  timestampString = "541149528.713685"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "829">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Yaqeen.YQHomeTabViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Yaqeen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
+                  timestampString = "541149528.715644"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/YQServiceHandler/YQAuthServiceHandler.swift"
+            timestampString = "539926570.814869"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "setupAuthToken(username:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Yaqeen.YQAuthServiceHandler.setupAuthToken(username: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Yaqeen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/YQServiceHandler/YQAuthServiceHandler.swift"
+                  timestampString = "539760912.712728"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "374">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (YQUtils.YQResultType&lt;YQDataLayer.YQOAuthTokenResponse, YQUtils.YQError&gt;) -&gt; () in Yaqeen.YQAuthServiceHandler.setupAuthToken(username: Swift.Optional&lt;Swift.String&gt;, password: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Yaqeen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/YQServiceHandler/YQAuthServiceHandler.swift"
+                  timestampString = "539760912.71451"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/YQServiceHandler/YQAuthServiceHandler.swift"
+            timestampString = "539926570.814921"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "setupAuthToken(username:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Coordinators/YQProfileCoordinator.swift"
+            timestampString = "539828490.712715"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "signoutUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Home/ViewModel/YQHomeTabViewModel.swift"
+            timestampString = "540617107.4795721"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "init(service:fetchImmediately:navigationTitle:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/YQNetworking/YQNetworking/Handler/YQOAuthHandler.swift"
+            timestampString = "539927441.55405"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "adapt(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/YQNetworking/YQNetworking/ApiClient/YQAPIClientProtocol.swift"
+            timestampString = "539842317.48699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "request(endPoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in YQNetworking):YQNetworking.YQAPIClientProtocol.request&lt;A where A1: Swift.Decodable&gt;(endPoint: YQNetworking.YQHttpServiceEndpoint, completion: (YQUtils.YQResultType&lt;A1, YQUtils.YQError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YQNetworking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Modules/YQNetworking/YQNetworking/ApiClient/YQAPIClientProtocol.swift"
+                  timestampString = "539842484.7997071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "89">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data&gt;) -&gt; () in (extension in YQNetworking):YQNetworking.YQAPIClientProtocol.request&lt;A where A1: Swift.Decodable&gt;(endPoint: YQNetworking.YQHttpServiceEndpoint, completion: (YQUtils.YQResultType&lt;A1, YQUtils.YQError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YQNetworking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Modules/YQNetworking/YQNetworking/ApiClient/YQAPIClientProtocol.swift"
+                  timestampString = "539842484.802242"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "650">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/YQNetworking/YQNetworking/ApiClient/YQAPIClientProtocol.swift"
+            timestampString = "539842317.487074"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "request(endPoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data&gt;) -&gt; () in (extension in YQNetworking):YQNetworking.YQAPIClientProtocol.request&lt;A where A1: Swift.Decodable&gt;(endPoint: YQNetworking.YQHttpServiceEndpoint, completion: (YQUtils.YQResultType&lt;A1, YQUtils.YQError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YQNetworking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Modules/YQNetworking/YQNetworking/ApiClient/YQAPIClientProtocol.swift"
+                  timestampString = "539842484.806296"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "770">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data&gt;) -&gt; () in (extension in YQNetworking):YQNetworking.YQAPIClientProtocol.request&lt;A where A1: Swift.Decodable&gt;(endPoint: YQNetworking.YQHttpServiceEndpoint, completion: (YQUtils.YQResultType&lt;A1, YQUtils.YQError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YQNetworking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Modules/YQNetworking/YQNetworking/ApiClient/YQAPIClientProtocol.swift"
+                  timestampString = "539842484.808722"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "861">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/YQNetworking/YQNetworking/Handler/YQOAuthHandler.swift"
+            timestampString = "539927441.554458"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "refreshTokens(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Home/Views/YQHomeTabViewController.swift"
+            timestampString = "539926570.81522"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Yaqeen.YQHomeTabViewController.retryButtonTapped() -&gt; ()"
+                  moduleName = "Yaqeen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
+                  timestampString = "541149528.723007"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "941">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Yaqeen.YQHomeTabViewController.retryButtonTapped() -&gt; ()"
+                  moduleName = "Yaqeen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
+                  timestampString = "541149528.7247829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "390">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Home/Views/YQHomeTabViewController.swift"
+            timestampString = "539926570.815475"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "246"
+            endingLineNumber = "246">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Yaqeen.YQHomeTabViewController.retryButtonTapped() -&gt; ()"
+                  moduleName = "Yaqeen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
+                  timestampString = "541149528.730285"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "941">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Yaqeen.YQHomeTabViewController.retryButtonTapped() -&gt; ()"
+                  moduleName = "Yaqeen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
+                  timestampString = "541149528.7334009"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "246"
+                  endingLineNumber = "246"
+                  offsetFromSymbolStart = "390">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Home/Views/YQHomeTabViewController.swift"
+            timestampString = "539926570.8156739"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/Home/Views/YQHomeTabViewController.swift"
+            timestampString = "539926570.815905"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/YQNetworking/YQNetworking/Handler/YQOAuthHandler.swift"
+            timestampString = "539927441.55472"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "should(_:retry:with:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/YQNetworking/YQNetworking/YaqeenServices/FetchPosts/YQPostsService.swift"
+            timestampString = "540077437.947521"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchPosts(endPoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (YQUtils.YQResultType&lt;Swift.Array&lt;YQDataLayer.YQPostsResponse&gt;, YQUtils.YQError&gt;) -&gt; () in YQNetworking.YQPostsService.fetchPosts(endPoint: YQNetworking.YQHttpServiceEndpoint, completion: (YQUtils.YQResultType&lt;Swift.Array&lt;YQDataLayer.YQPostsResponse&gt;, YQUtils.YQError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YQNetworking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Modules/YQNetworking/YQNetworking/YaqeenServices/FetchPosts/YQPostsService.swift"
+                  timestampString = "540076328.643031"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "233">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (YQUtils.YQResultType&lt;Swift.Array&lt;YQDataLayer.YQPostsResponse&gt;, YQUtils.YQError&gt;) -&gt; () in YQNetworking.YQPostsService.fetchPosts(endPoint: YQNetworking.YQHttpServiceEndpoint, completion: (YQUtils.YQResultType&lt;Swift.Array&lt;YQDataLayer.YQPostsResponse&gt;, YQUtils.YQError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YQNetworking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Modules/YQNetworking/YQNetworking/YaqeenServices/FetchPosts/YQPostsService.swift"
+                  timestampString = "540076328.646021"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "237">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/YQNetworking/YQNetworking/YaqeenServices/FetchPosts/YQPostsService.swift"
+            timestampString = "540077437.947567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchPosts(endPoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YQNetworking.YQPostsService.fetchPosts(endPoint: YQNetworking.YQHttpServiceEndpoint, completion: (YQUtils.YQResultType&lt;Swift.Array&lt;YQDataLayer.YQPostsResponse&gt;, YQUtils.YQError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YQNetworking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Modules/YQNetworking/YQNetworking/YaqeenServices/FetchPosts/YQPostsService.swift"
+                  timestampString = "540372248.398262"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "322">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (YQUtils.YQResultType&lt;Swift.Array&lt;YQDataLayer.YQPostsResponse&gt;, YQUtils.YQError&gt;) -&gt; () in YQNetworking.YQPostsService.fetchPosts(endPoint: YQNetworking.YQHttpServiceEndpoint, completion: (YQUtils.YQResultType&lt;Swift.Array&lt;YQDataLayer.YQPostsResponse&gt;, YQUtils.YQError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "YQNetworking"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Modules/YQNetworking/YQNetworking/YaqeenServices/FetchPosts/YQPostsService.swift"
+                  timestampString = "540372248.402059"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/PostDetails/View/YQPostDetailsViewController.swift"
+            timestampString = "540629733.533921"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "viewDidLayoutSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/PostDetails/View/YQPostDetailsView.swift"
+            timestampString = "541149528.319726"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "layoutSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Yaqeen/PostDetails/View/YQPostDetailsView.swift"
+            timestampString = "541149528.320102"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
