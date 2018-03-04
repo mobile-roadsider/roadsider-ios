@@ -6,7 +6,6 @@
 //  Copyright © 2017 Roadsider. All rights reserved.
 //
 
-import RSUIKit
 import RSUtils
 
 enum LoginType :String{

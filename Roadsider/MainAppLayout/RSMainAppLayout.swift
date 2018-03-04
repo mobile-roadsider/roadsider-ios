@@ -21,9 +21,7 @@ class RSMainAppLayout : RSMainAppLayoutProtocol {
         get {
             return [
                 RSHomeLayout(coordinator:RSHomeTabCoordinator(parentCoordinator:parentCoordinator)),
-                RSSectionLayout(coordinator:RSSectionsCoordinator(parentCoordinator:parentCoordinator)),
                 RSProfileLayout(coordinator:RSProfileCoordinator(parentCoordinator:parentCoordinator))
-
             ]
         }
     }

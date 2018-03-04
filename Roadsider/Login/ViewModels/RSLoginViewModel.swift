@@ -8,8 +8,6 @@
 
 import Foundation
 import RSUtils
-import Firebase
-import RSNetworking
 
 enum RSAlertType {
     case firstName
@@ -69,9 +67,9 @@ class RSLoginViewModel : RSLoginViewModelProtocol {
     }
 
     private func sendForgotPasswordInstructions(email:String){
-        Auth.auth().sendPasswordReset(withEmail: email) { [weak self] error in
-            self?.viewDelegate?.showAlert(.resetPasswordConfirmation(String(format:"An e-mail has been sent to %@. Please check your mail for password reset instructions.",email)))
-        }
+//        Auth.auth().sendPasswordReset(withEmail: email) { [weak self] error in
+//            self?.viewDelegate?.showAlert(.resetPasswordConfirmation(String(format:"An e-mail has been sent to %@. Please check your mail for password reset instructions.",email)))
+//        }
     }
 
     
@@ -106,44 +104,44 @@ class RSLoginViewModel : RSLoginViewModelProtocol {
     
     private func authenticateUser(email:String, password:String) {
         // Add Firebase code here
-        Auth.auth().signIn(withEmail: email, password: password) { [weak self] (user, error) in
-            if error != nil {
-                // TODO:  log the error
-                self?.viewDelegate?.showAlert(.login)
-            } else {
-                print("Successful Login")
-                self?.finishAuthentication(name:user?.displayName, email:user?.email)
-                // Dimiss the Controller and move to Coordinator
-                self?.coordinatorDelegate?.userLoginSuccessful()
-            }
-        }
+//        Auth.auth().signIn(withEmail: email, password: password) { [weak self] (user, error) in
+//            if error != nil {
+//                // TODO:  log the error
+//                self?.viewDelegate?.showAlert(.login)
+//            } else {
+//                print("Successful Login")
+//                self?.finishAuthentication(name:user?.displayName, email:user?.email)
+//                // Dimiss the Controller and move to Coordinator
+//                self?.coordinatorDelegate?.userLoginSuccessful()
+//            }
+//        }
     }
     
     private func registerUser(name:String, email:String, password:String) {
-        Auth.auth().createUser(withEmail: email, password: password) { [weak self] (user, error) in
-            if error != nil {
-                // TODO:  log the error
-                
-                self?.viewDelegate?.showAlert(.register)
-            } else {
-                if let user = user {
-                    let changeRequest = user.createProfileChangeRequest()
-                    changeRequest.displayName = name
-                    changeRequest.commitChanges { commitError in
-                        if commitError != nil {
-                            // TODO:  log the error
-                            self?.viewDelegate?.showAlert(.register)
-                        } else {
-                            print("Successful Registration")
-                            // Log User successfully updated. Add tracking info
-                            self?.finishAuthentication(name:user.displayName, email:user.email)
-                            // Dimiss the Controller and move to Coordinator
-                            self?.coordinatorDelegate?.userRegistrationSuccessful()
-                        }
-                    }
-                }
-            }
-        }
+//        Auth.auth().createUser(withEmail: email, password: password) { [weak self] (user, error) in
+//            if error != nil {
+//                // TODO:  log the error
+//
+//                self?.viewDelegate?.showAlert(.register)
+//            } else {
+//                if let user = user {
+//                    let changeRequest = user.createProfileChangeRequest()
+//                    changeRequest.displayName = name
+//                    changeRequest.commitChanges { commitError in
+//                        if commitError != nil {
+//                            // TODO:  log the error
+//                            self?.viewDelegate?.showAlert(.register)
+//                        } else {
+//                            print("Successful Registration")
+//                            // Log User successfully updated. Add tracking info
+//                            self?.finishAuthentication(name:user.displayName, email:user.email)
+//                            // Dimiss the Controller and move to Coordinator
+//                            self?.coordinatorDelegate?.userRegistrationSuccessful()
+//                        }
+//                    }
+//                }
+//            }
+//        }
     }
     
     private func finishAuthentication(name:String?, email:String?) {

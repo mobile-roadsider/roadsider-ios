@@ -7,10 +7,7 @@
 //
 
 import UIKit
-import RSNetworking
-import Firebase
 import Fabric
-import Crashlytics
 
 class RoadsiderAppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -18,9 +15,8 @@ class RoadsiderAppDelegate: UIResponder, UIApplicationDelegate {
     var appCoordinator : RSAppCoordinator?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        Fabric.with([Crashlytics.self])
+       // Fabric.with([Crashlytics.self])
         // Override point for customization after application launch.
-        FirebaseApp.configure()
     
         window = UIWindow()
         appCoordinator = RSAppCoordinator(window: window!, appLayout:RSMainAppLayout())

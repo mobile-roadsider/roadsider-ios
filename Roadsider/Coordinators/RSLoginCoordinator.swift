@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import RSNetworking
 
 protocol RSLoginCoordinatorDelegate {
     func loginCoordinatorDidFinish(loginCoordinator: RSLoginCoordinator)
@@ -21,7 +20,6 @@ class RSLoginCoordinator : RSDefaultCoordinator {
     
     var coordinatorDelegate : RSLoginCoordinatorDelegate?
     var viewController : RSLoginViewController?
-    var authTokenHandler : RSAuthServiceHandler?
     var viewModel : RSLoginViewModelProtocol
     init(viewModel: RSLoginViewModelProtocol) {
         self.viewModel = viewModel
@@ -69,8 +67,7 @@ extension RSLoginCoordinator : RSLoginViewModelCoordinatorDelegate {
         
         // Set up Service Token only when we do not have any access token. Otherwise use the existing token on login
         if let _ = RSKeychain.sharedInstance.accessToken {
-            authTokenHandler = RSAuthServiceHandler(authService: RSOAuthService())
-            authTokenHandler?.setupAuthToken(username:ServerConfigurationHandler.sharedInstance.serverConfig?.userName,password:ServerConfigurationHandler.sharedInstance.serverConfig?.password)
+           
         }
     }
 }

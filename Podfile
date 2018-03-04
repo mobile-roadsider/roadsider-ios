@@ -3,15 +3,15 @@ platform :ios, '10.0'
 # ignore all warnings from all pods
 inhibit_all_warnings!
 
-target :Yaqeen do
+target :RoadSider do
     use_frameworks!
-    project 'Yaqeen.xcodeproj'
+    project 'RoadSider.xcodeproj'
     inherit! :search_paths
-    pod 'Firebase/Auth'
+    # pod 'Firebase/Auth'
     pod 'Fabric'
-    pod 'Crashlytics'
-    target 'YaqeenTests' do
-        inherit! :search_paths
-        pod 'Firebase/Auth'
-    end
+    #pod 'Crashlytics'
+   # target 'RoadSiderTests' do
+    #    inherit! :search_paths
+     #   pod 'Firebase/Auth'
+   # end
 end
