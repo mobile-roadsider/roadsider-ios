@@ -24,7 +24,7 @@ class RSProfileLayout<C:RSDefaultCoordinator> : RSTabLayout {
     }
     
     func tabBarItem() -> UITabBarItem {
-        return UITabBarItem(title: tabIdentifier, image: UIImage(named: "ProfileUnSelected.png")?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: "ProfileSelected.png")?.withRenderingMode(.alwaysOriginal))
+        return UITabBarItem(title: tabIdentifier, image: UIImage(named: "ProfileUnSelected.png")?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: "Profile.png")?.withRenderingMode(.alwaysOriginal))
     }
     
     func tabViewController() -> UIViewController? {

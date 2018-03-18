@@ -48,6 +48,7 @@
 		347734D41FA1ADFD004EBC61 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 347734B71FA1ADF5004EBC61 /* Montserrat-ThinItalic.ttf */; };
 		347DD71B1FE5E3E400BCC6B0 /* RSProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DD71A1FE5E3E400BCC6B0 /* RSProfileViewModel.swift */; };
 		347DD71D1FE64AD900BCC6B0 /* RSProfileLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DD71C1FE64AD900BCC6B0 /* RSProfileLayoutTests.swift */; };
+		347F1CB620701F68005B0E71 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 347F1CB520701F68005B0E71 /* GoogleService-Info.plist */; };
 		3481F6CF1F9D47090016AB99 /* RSMainAppLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3481F6CE1F9D47090016AB99 /* RSMainAppLayout.swift */; };
 		3482483C200161560073B8D3 /* RSHomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3482483B200161560073B8D3 /* RSHomeTabViewController.swift */; };
 		348FEB2A1FBC0223000B7994 /* RSSignInButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348FEB281FBC0223000B7994 /* RSSignInButtonView.swift */; };
@@ -164,6 +165,7 @@
 		347734C31FA1ADF6004EBC61 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
 		347DD71A1FE5E3E400BCC6B0 /* RSProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSProfileViewModel.swift; sourceTree = "<group>"; };
 		347DD71C1FE64AD900BCC6B0 /* RSProfileLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSProfileLayoutTests.swift; sourceTree = "<group>"; };
+		347F1CB520701F68005B0E71 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3481F6CE1F9D47090016AB99 /* RSMainAppLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSMainAppLayout.swift; sourceTree = "<group>"; };
 		3482483B200161560073B8D3 /* RSHomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSHomeTabViewController.swift; sourceTree = "<group>"; };
 		348FEB281FBC0223000B7994 /* RSSignInButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RSSignInButtonView.swift; path = Views/RSSignInButtonView.swift; sourceTree = "<group>"; };
@@ -457,6 +459,7 @@
 				34E1D60A1FA187010075D58D /* Resources */,
 				34D8C0A51F2599720099433D /* Info.plist */,
 				34D1D587202EA2F400A29FA5 /* LaunchScreen.storyboard */,
+				347F1CB520701F68005B0E71 /* GoogleService-Info.plist */,
 				34A065952028461200289691 /* Roadsider.entitlements */,
 				34A065962028467500289691 /* Roadsider-Appstore.entitlements */,
 				349EDD051F6D970D004B761F /* main.swift */,
@@ -695,6 +698,7 @@
 				347734D31FA1ADFD004EBC61 /* Montserrat-Thin.ttf in Resources */,
 				347734D41FA1ADFD004EBC61 /* Montserrat-ThinItalic.ttf in Resources */,
 				34D8C0A11F2599720099433D /* Assets.xcassets in Resources */,
+				347F1CB620701F68005B0E71 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

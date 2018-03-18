@@ -154,10 +154,6 @@ extension RSLoginViewController : RSLoginViewDelegate {
             self.viewModel.userRegistrationSubmitted(name:loginValues.name, email:loginValues.email, password: loginValues.password)
         }
     }
-
-    func skipButtonTapped() {
-        self.viewModel.skipLoginOrRegistration()
-    }
 }
 
 
@@ -168,7 +164,7 @@ extension RSLoginViewController : RSLoginViewModelViewDelegate {
         switch authType {
         case .firstName,
             .lastName:
-            alertAction = (title: "Please Enter Your Full Name", message: "E.g Hashim Roadsider")
+            alertAction = (title: "Please Enter Your Full Name", message: "E.g Hello Roadsider")
         case .email:
             alertAction = (title: "Invalid E-Mail Address", message: "Please enter valid e-mail address")
         case .password(let message):

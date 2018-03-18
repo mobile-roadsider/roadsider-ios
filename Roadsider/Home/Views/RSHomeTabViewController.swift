@@ -28,7 +28,11 @@ class RSHomeTabViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.lightGray
-        NSLayoutConstraint.activate(mapView.attachToSuperView())
+        var constraints = [sourceLocationField.alignLeft(toView: self.view, offset: 20),
+            sourceLocationField.alignRight(toView: self.view, offset: 20),
+            sourceLocationField.alignTop(toView: self.view, offset: 50)]
+        constraints.append(contentsOf:mapView.attachToSuperView())
+        NSLayoutConstraint.activate(constraints)
     }
     
     lazy var mapView:RSMapView = {
@@ -37,4 +41,13 @@ class RSHomeTabViewController : UIViewController {
         self.view.addSubview(mapView)
         return mapView
     }()
+    
+    lazy var sourceLocationField : RSTextField = {
+        let textField = RSTextField(placeHolderText:"Enter your location")
+        textField.backgroundColor = .lightGray
+        textField.translatesAutoresizingMaskIntoConstraints = false
+        self.view.insertSubview(textField, aboveSubview: mapView)
+        return textField
+    }()
+
 }

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Firebase
 import RSUtils
 
 enum RSAlertType {
@@ -27,7 +28,6 @@ protocol RSLoginViewModelCoordinatorDelegate : class {
     func userLoginSuccessful()
     func userRegistrationSuccessful()
     func setServiceHandler()
-    func skipLoginOrRegistration()
 }
 
 protocol RSLoginViewModelProtocol {
@@ -36,7 +36,6 @@ protocol RSLoginViewModelProtocol {
     func userLoginSubmitted(email:String, password:String)
     func userRegistrationSubmitted(name:String, email:String, password:String)
     func forgotPassword(email:String)
-    func skipLoginOrRegistration()
 }
 
 
@@ -60,10 +59,6 @@ class RSLoginViewModel : RSLoginViewModelProtocol {
         if validateEmail(email) {
             sendForgotPasswordInstructions(email:email)
         }
-    }
-    
-    func skipLoginOrRegistration() {
-        coordinatorDelegate?.skipLoginOrRegistration()
     }
 
     private func sendForgotPasswordInstructions(email:String){
@@ -104,44 +99,44 @@ class RSLoginViewModel : RSLoginViewModelProtocol {
     
     private func authenticateUser(email:String, password:String) {
         // Add Firebase code here
-//        Auth.auth().signIn(withEmail: email, password: password) { [weak self] (user, error) in
-//            if error != nil {
-//                // TODO:  log the error
-//                self?.viewDelegate?.showAlert(.login)
-//            } else {
-//                print("Successful Login")
-//                self?.finishAuthentication(name:user?.displayName, email:user?.email)
-//                // Dimiss the Controller and move to Coordinator
-//                self?.coordinatorDelegate?.userLoginSuccessful()
-//            }
-//        }
+        Auth.auth().signIn(withEmail: email, password: password) { [weak self] (user, error) in
+            if error != nil {
+                // TODO:  log the error
+                self?.viewDelegate?.showAlert(.login)
+            } else {
+                print("Successful Login")
+                self?.finishAuthentication(name:user?.displayName, email:user?.email)
+                // Dimiss the Controller and move to Coordinator
+                self?.coordinatorDelegate?.userLoginSuccessful()
+            }
+        }
     }
     
     private func registerUser(name:String, email:String, password:String) {
-//        Auth.auth().createUser(withEmail: email, password: password) { [weak self] (user, error) in
-//            if error != nil {
-//                // TODO:  log the error
-//
-//                self?.viewDelegate?.showAlert(.register)
-//            } else {
-//                if let user = user {
-//                    let changeRequest = user.createProfileChangeRequest()
-//                    changeRequest.displayName = name
-//                    changeRequest.commitChanges { commitError in
-//                        if commitError != nil {
-//                            // TODO:  log the error
-//                            self?.viewDelegate?.showAlert(.register)
-//                        } else {
-//                            print("Successful Registration")
-//                            // Log User successfully updated. Add tracking info
-//                            self?.finishAuthentication(name:user.displayName, email:user.email)
-//                            // Dimiss the Controller and move to Coordinator
-//                            self?.coordinatorDelegate?.userRegistrationSuccessful()
-//                        }
-//                    }
-//                }
-//            }
-//        }
+        Auth.auth().createUser(withEmail: email, password: password) { [weak self] (user, error) in
+            if error != nil {
+                // TODO:  log the error
+
+                self?.viewDelegate?.showAlert(.register)
+            } else {
+                if let user = user {
+                    let changeRequest = user.createProfileChangeRequest()
+                    changeRequest.displayName = name
+                    changeRequest.commitChanges { commitError in
+                        if commitError != nil {
+                            // TODO:  log the error
+                            self?.viewDelegate?.showAlert(.register)
+                        } else {
+                            print("Successful Registration")
+                            // Log User successfully updated. Add tracking info
+                            self?.finishAuthentication(name:user.displayName, email:user.email)
+                            // Dimiss the Controller and move to Coordinator
+                            self?.coordinatorDelegate?.userRegistrationSuccessful()
+                        }
+                    }
+                }
+            }
+        }
     }
     
     private func finishAuthentication(name:String?, email:String?) {

@@ -12,5 +12,5 @@ target :RoadSider do
     pod 'GooglePlaces'
    # pod 'Fabric'
    # pod 'Crashlytics'
-   # pod 'Firebase/Auth'
+    pod 'Firebase/Auth'
 end

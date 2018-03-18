@@ -29,14 +29,14 @@ class RSTextField : UITextField {
     private func setupStyle(placeHolderText:String, isSecureEntry:Bool) {
         let style = NSMutableParagraphStyle()
         style.alignment = NSTextAlignment.left
-        let attributedPlaceholder = NSAttributedString(string:placeHolderText, attributes: [NSAttributedStringKey.paragraphStyle: style,NSAttributedStringKey.foregroundColor: UIColor.white,NSAttributedStringKey.font: RSFont.brandFont(.medium(size: 11)) ])
+        let attributedPlaceholder = NSAttributedString(string:placeHolderText, attributes: [NSAttributedStringKey.paragraphStyle: style,NSAttributedStringKey.foregroundColor: UIColor.black,NSAttributedStringKey.font: RSFont.brandFont(.regular(size: 11)) ])
         self.attributedPlaceholder = attributedPlaceholder
-        self.backgroundColor = RSColor.brandColor(.lightSlateGray)
+        self.backgroundColor = RSColor.brandColor(.lightBlue)
         self.roundedCorners(cornerRadius: 15)
         self.isSecureTextEntry = isSecureEntry
         self.contentVerticalAlignment = .center
-        self.tintColor = UIColor.white
-        self.textColor = UIColor.white
+        self.tintColor = UIColor.black
+        self.textColor = UIColor.black
         self.autocapitalizationType = .none
         self.autocorrectionType = .no
         self.clearButtonMode = .whileEditing

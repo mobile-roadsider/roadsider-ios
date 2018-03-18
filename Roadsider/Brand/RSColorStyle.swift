@@ -18,7 +18,7 @@ public enum RSColorStyle {
     case primary // Main Blue
     case secondary // orange
     case secondary1 // Author Color
-    case lightSlateGray
+    case lightBlue
 }
 
 class RSColor: RSColorProtocol {

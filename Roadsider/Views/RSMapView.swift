@@ -3,7 +3,7 @@
 //  RoadSider
 //
 //  Created by Niyaz Ahmed Amanullah on 3/17/18.
-//  Copyright © 2018 Yaqeen. All rights reserved.
+//  Copyright © 2018 Roadsider. All rights reserved.
 //
 
 import Foundation

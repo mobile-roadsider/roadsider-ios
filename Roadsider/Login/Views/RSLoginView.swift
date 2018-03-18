@@ -13,7 +13,6 @@ protocol RSLoginViewDelegate : NSObjectProtocol {
     func forgotPasswordLabelTapped()
     func signupLabelTapped()
     func signInButtonTapped()
-    func skipButtonTapped()
 }
 
 public class RSLoginView : UIView {
@@ -22,7 +21,7 @@ public class RSLoginView : UIView {
 
     
     // MARK : Lazy Vars
-    lazy var nameField = RSTextField(placeHolderText:RSLoginView.kNameText, image: UIImage(named: "NameLogo"),delegate:self)
+    lazy var nameField = RSTextField(placeHolderText:RSLoginView.kNameText, image: UIImage(named: "Profile"),delegate:self)
     lazy var emailField = RSTextField(placeHolderText:RSLoginView.kEmailText, image: UIImage(named: "Email"), delegate:self)
     lazy var password = RSTextField(placeHolderText:RSLoginView.kPasswordText, image:UIImage(named: "Password"),isSecureEntry:true, delegate : self)
     
@@ -32,19 +31,6 @@ public class RSLoginView : UIView {
         return signIn
     }()
     
-    private lazy var skipButton : UIButton = {
-        let button = UIButton()
-        button.contentHorizontalAlignment = .center
-        button.setTitle(RSLoginView.kSkipText,for: .normal)
-        button.setTitleColor(UIColor.white, for: .normal)
-        button.titleLabel?.font = RSFont.brandFont(.medium(size: 11))
-        button.roundedCorners(cornerRadius: 8, borderColor: RSColor.brandColor(.secondary).cgColor, borderWidth: 0)
-        button.isUserInteractionEnabled = true
-        let tap = UITapGestureRecognizer(target: self, action: #selector(RSLoginView.skipButtonTapped))
-        button.addGestureRecognizer(tap)
-        return button
-    }()
-
     private lazy var loginView : UIStackView = {
         let view = UIStackView()
         view.axis = .vertical
@@ -107,10 +93,9 @@ public class RSLoginView : UIView {
         loginView.addArrangedSubview(brandLogo)
         loginView.addArrangedSubview(textFieldStack)
         loginView.addArrangedSubview(signInView)
-        loginView.addArrangedSubview(skipButton)
         
         if #available(iOS 11.0, *) {
-            loginView.setCustomSpacing(60, after: brandLogo)
+            loginView.setCustomSpacing(20, after: brandLogo)
         }
         
         NSLayoutConstraint.activate(loginView.attachToSuperView())
@@ -118,10 +103,6 @@ public class RSLoginView : UIView {
     
     private func setupTextFields() {
         nameField.isHidden = true
-    }
-
-    @objc func skipButtonTapped(sender:UITapGestureRecognizer) {
-        self.delegate?.skipButtonTapped()
     }
 }
 

@@ -31,9 +31,15 @@ class RSAppCoordinator : RSCoordinator {
         UINavigationBar.appearance().barTintColor = RSColor.brandColor(.primary)
         UINavigationBar.appearance().barStyle = .blackOpaque
         UINavigationBar.appearance().isTranslucent = false
-        let tabBarController = RSMainTabBarContainer()
-        window.rootViewController = tabBarController
-        setMainTabCoordinator()
+        if UserDefaults.Authentication.bool(forKey: .isLoggedIn) {
+            let tabBarController = RSMainTabBarContainer()
+            window.rootViewController = tabBarController
+            setMainTabCoordinator()
+        } else {
+            loginCoordinator = RSLoginCoordinator(viewModel:RSLoginViewModel())
+            loginCoordinator?.coordinatorDelegate = self
+            loginCoordinator?.start()
+        }
     }
     
     fileprivate func setMainTabCoordinator() {
@@ -43,3 +49,17 @@ class RSAppCoordinator : RSCoordinator {
         tabCoordinator?.start()
     }
 }
+
+extension RSAppCoordinator : RSLoginCoordinatorDelegate {
+    func loginCoordinatorDidFinish(loginCoordinator: RSLoginCoordinator) {
+        loginCoordinator.stop()
+        setMainTabCoordinator()
+    }
+    
+    func loginOrRegistrationSuccessful(loginCoordinator: RSLoginCoordinator) {
+        NotificationCenter.default.post(Notification(name:RSNotificationConstants.kAuthenticationSuccessNotification))
+        loginCoordinator.stopModally()
+        setMainTabCoordinator()
+    }
+}
+

@@ -54,9 +54,6 @@ extension RSLoginCoordinator : RSLoginViewModelCoordinatorDelegate {
         coordinatorDelegate?.loginOrRegistrationSuccessful(loginCoordinator: self)
     }
 
-    func skipLoginOrRegistration() {
-        coordinatorDelegate?.loginCoordinatorDidFinish(loginCoordinator: self)
-    }
     
     func setServiceHandler() {
         configureServiceTokenHandler()

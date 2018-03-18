@@ -25,7 +25,7 @@ protocol RSProfileViewModelProtocol {
 
 class RSProfileViewModel : RSProfileViewModelProtocol {
     var salutation: String {
-        return "As-salāmu ʿAlaykum"
+        return "Welcome to Roadsider,"
     }
     
     var version: String {
@@ -41,7 +41,7 @@ class RSProfileViewModel : RSProfileViewModelProtocol {
         let calendar = Calendar.current
         
         let year = String(calendar.component(.year, from: date))
-        return String(format:"COPYRIGHT © %@. Roadsider INSTITUTE FOR ISLAMIC RESEARCH",year)
+        return String(format:"COPYRIGHT © %@. Roadsider Inc",year)
     }
     
     var name: String {
@@ -54,7 +54,7 @@ class RSProfileViewModel : RSProfileViewModelProtocol {
         UserDefaults.Authentication.set(false, forKey:.isLoggedIn)
         UserDefaults.Profile.set("", forKey:.name)
         UserDefaults.Profile.set("", forKey:.email)
-       // coordinatorDelegate?.signoutUser()
+        coordinatorDelegate?.signoutUser()
     }
 
     func showLogin() {

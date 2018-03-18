@@ -48,7 +48,7 @@ class RSSignInButtonView : UIView {
     private lazy var signInButton : UIButton = {
         let button = UIButton()
         button.setTitle(RSSignInButtonView.kSignInText,for: .normal)
-        button.setTitleColor(UIColor.white, for: .normal)
+        button.setTitleColor(RSColor.brandColor(.primary), for: .normal)
         button.backgroundColor = RSColor.brandColor(.secondary)
         button.titleLabel?.font = RSFont.brandFont(.medium(size: 15))
         button.roundedCorners(cornerRadius: 8, borderColor: RSColor.brandColor(.secondary).cgColor, borderWidth: 0)

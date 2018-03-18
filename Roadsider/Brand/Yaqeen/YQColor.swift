@@ -13,13 +13,13 @@ extension RSColor {
     class func createBrandColorForStyle(_ style: RSColorStyle) -> UIColor {
         switch style {
         case .primary:
-            return UIColor(red:0.09, green:0.28, blue:0.54, alpha:1.0)
+            return UIColor(red:0.32, green:0.58, blue:0.79, alpha:1.0)
          case .secondary:
-            return UIColor(red:0.95, green:0.56, blue:0.11, alpha:1.0)
+            return UIColor(red:0.99, green:1.00, blue:1.00, alpha:1.0)
         case .secondary1:
             return UIColor(red:0.50, green:0.66, blue:0.91, alpha:1.0)
-        case .lightSlateGray:
-            return UIColor(red:0.39, green:0.51, blue:0.67, alpha:1.0)
+        case .lightBlue:
+            return UIColor(red:0.97, green:0.98, blue:0.99, alpha:1.0)
         }
     }
 }
