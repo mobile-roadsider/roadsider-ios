@@ -7,21 +7,27 @@
 //
 
 import UIKit
-import Fabric
+import GoogleMaps
+import GooglePlaces
+import RSLocationManager
 
 class RoadsiderAppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var appCoordinator : RSAppCoordinator?
+    private static let GOOGLE_API : String = "AIzaSyA2XWRNtMq_ZEQgmFzj9UBpiAkL_bNZyKs"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
        // Fabric.with([Crashlytics.self])
         // Override point for customization after application launch.
     
+        GMSServices.provideAPIKey(RoadsiderAppDelegate.GOOGLE_API)
+        GMSPlacesClient.provideAPIKey(RoadsiderAppDelegate.GOOGLE_API)
         window = UIWindow()
         appCoordinator = RSAppCoordinator(window: window!, appLayout:RSMainAppLayout())
         appCoordinator?.start()
         window?.makeKeyAndVisible()
+        RSLocationManager.sharedManager.startUpdatingLocation()
         return true
     }
 

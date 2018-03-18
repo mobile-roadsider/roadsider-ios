@@ -28,5 +28,13 @@ class RSHomeTabViewController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.lightGray
+        NSLayoutConstraint.activate(mapView.attachToSuperView())
     }
+    
+    lazy var mapView:RSMapView = {
+        let mapView = RSMapView()
+        mapView.translatesAutoresizingMaskIntoConstraints = false
+        self.view.addSubview(mapView)
+        return mapView
+    }()
 }

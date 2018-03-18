@@ -15,6 +15,7 @@
 		343109AF1FC1427B00532FA2 /* RSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343109AE1FC1427B00532FA2 /* RSTextField.swift */; };
 		3442D92B1FA26EFA00AD19AA /* RSMainTabBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3442D92A1FA26EFA00AD19AA /* RSMainTabBarContainer.swift */; };
 		3443F9FE1FCFBA9000660A1B /* RSUserPrefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443F9FD1FCFBA9000660A1B /* RSUserPrefs.swift */; };
+		34473263205DDB6400950D12 /* RSMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34473262205DDB6400950D12 /* RSMapView.swift */; };
 		345464281FDE00D000045979 /* RSProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345464271FDE00D000045979 /* RSProfileCoordinator.swift */; };
 		3454642B1FDE01CB00045979 /* RSProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454642A1FDE01CB00045979 /* RSProfileViewController.swift */; };
 		3454642D1FDE071B00045979 /* RSProfileLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454642C1FDE071B00045979 /* RSProfileLayout.swift */; };
@@ -53,6 +54,7 @@
 		348FEB2B1FBC0223000B7994 /* RSLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348FEB291FBC0223000B7994 /* RSLoginView.swift */; };
 		349EDD061F6D970D004B761F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EDD051F6D970D004B761F /* main.swift */; };
 		349EDD081F6D9771004B761F /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349EDD071F6D9771004B761F /* TestingAppDelegate.swift */; };
+		34CE20AC205E1B9200946578 /* RSLocationManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CE20AD205E1B9200946578 /* RSLocationManager.framework */; };
 		34D1D588202EA2F400A29FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34D1D587202EA2F400A29FA5 /* LaunchScreen.storyboard */; };
 		34D8C09A1F2599720099433D /* RoadsiderAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D8C0991F2599720099433D /* RoadsiderAppDelegate.swift */; };
 		34D8C0A11F2599720099433D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D8C0A01F2599720099433D /* Assets.xcassets */; };
@@ -131,6 +133,7 @@
 		343CEC66200F03D60033858B /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		3442D92A1FA26EFA00AD19AA /* RSMainTabBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSMainTabBarContainer.swift; sourceTree = "<group>"; };
 		3443F9FD1FCFBA9000660A1B /* RSUserPrefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSUserPrefs.swift; sourceTree = "<group>"; };
+		34473262205DDB6400950D12 /* RSMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSMapView.swift; sourceTree = "<group>"; };
 		345464271FDE00D000045979 /* RSProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSProfileCoordinator.swift; sourceTree = "<group>"; };
 		3454642A1FDE01CB00045979 /* RSProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSProfileViewController.swift; sourceTree = "<group>"; };
 		3454642C1FDE071B00045979 /* RSProfileLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSProfileLayout.swift; sourceTree = "<group>"; };
@@ -172,6 +175,7 @@
 		34A065962028467500289691 /* Roadsider-Appstore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Roadsider-Appstore.entitlements"; sourceTree = "<group>"; };
 		34B1CFB61F2B07B0000076AB /* YQNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YQNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CBC1E51FAD46A00004384D /* YQDataLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YQDataLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34CE20AD205E1B9200946578 /* RSLocationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RSLocationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D1D587202EA2F400A29FA5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34D8C0961F2599720099433D /* RoadSider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadSider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D8C0991F2599720099433D /* RoadsiderAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsiderAppDelegate.swift; sourceTree = "<group>"; };
@@ -212,6 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CE20AC205E1B9200946578 /* RSLocationManager.framework in Frameworks */,
 				34F34887204C907D007B1917 /* RSUtils.framework in Frameworks */,
 				34DC9279201EB4FA002AA0D5 /* AlamofireImage.framework in Frameworks */,
 				34DC9278201EB4ED002AA0D5 /* Alamofire.framework in Frameworks */,
@@ -278,6 +283,7 @@
 			children = (
 				343109AE1FC1427B00532FA2 /* RSTextField.swift */,
 				342A4B0520105EB6005F5F39 /* RSErrorView.swift */,
+				34473262205DDB6400950D12 /* RSMapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -371,6 +377,7 @@
 		348ABE591F2ADB2200152797 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34CE20AD205E1B9200946578 /* RSLocationManager.framework */,
 				34F3488D204C9096007B1917 /* RSDataLayer.framework */,
 				34F3488E204C9096007B1917 /* RSNetworking.framework */,
 				34F34888204C907D007B1917 /* RSUtils.framework */,
@@ -397,6 +404,13 @@
 				342DC3E61FB96FE500DD2164 /* RSLoginViewController.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		34CE2087205E1AE600946578 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 		34D08C011FE71494001E6D78 /* Controller */ = {
@@ -430,6 +444,7 @@
 		34D8C0981F2599720099433D /* Roadsider */ = {
 			isa = PBXGroup;
 			children = (
+				34CE2087205E1AE600946578 /* Location */,
 				343109AD1FC1426E00532FA2 /* Views */,
 				345464291FDE01B900045979 /* Profile */,
 				342DC3E41FB96FCB00DD2164 /* Login */,
@@ -575,7 +590,6 @@
 				34D8C0921F2599720099433D /* Sources */,
 				34D8C0941F2599720099433D /* Resources */,
 				34B1CFB51F2B07A6000076AB /* Embed Frameworks */,
-				34CC13371FF2BE2E009AFBB0 /* Crashlytics Dsym Upload */,
 				34DC928A201EC51A002AA0D5 /* Carthage Copy */,
 				BC6E12A36D6CA1DC63DECFCB /* [CP] Embed Pods Frameworks */,
 				9E0D9D7EE98B60F11F42130E /* [CP] Copy Pods Resources */,
@@ -710,20 +724,6 @@
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/bash\n\n\"$SRCROOT\"/scripts/carthage.sh";
 		};
-		34CC13371FF2BE2E009AFBB0 /* Crashlytics Dsym Upload */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Crashlytics Dsym Upload";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 5b33a19cbbfccdf660f61540d0426f96a005caf3 2e75b04a5386a40128195580a0822958ac2635d404a0eb107a9543ec14e927bc";
-		};
 		34DC928A201EC51A002AA0D5 /* Carthage Copy */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -810,6 +810,7 @@
 				346412F91FD48965007C2951 /* RSKeyChain.swift in Sources */,
 				34EA69771F9D2A7000F9B774 /* RSHomeTabCoordinator.swift in Sources */,
 				34EA696C1F9C51F200F9B774 /* RSHomeLayout.swift in Sources */,
+				34473263205DDB6400950D12 /* RSMapView.swift in Sources */,
 				34E1D6041FA151070075D58D /* YQColor.swift in Sources */,
 				3443F9FE1FCFBA9000660A1B /* RSUserPrefs.swift in Sources */,
 				3454642D1FDE071B00045979 /* RSProfileLayout.swift in Sources */,

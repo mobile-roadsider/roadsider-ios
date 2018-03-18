@@ -276,38 +276,6 @@
             endingLineNumber = "40"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Yaqeen.YQHomeTabViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "Yaqeen"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
-                  timestampString = "541149528.713685"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "829">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Yaqeen.YQHomeTabViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "Yaqeen"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
-                  timestampString = "541149528.715644"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "21">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -546,38 +514,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "246"
             endingLineNumber = "246">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Yaqeen.YQHomeTabViewController.retryButtonTapped() -&gt; ()"
-                  moduleName = "Yaqeen"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
-                  timestampString = "541149528.723007"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "246"
-                  endingLineNumber = "246"
-                  offsetFromSymbolStart = "941">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Yaqeen.YQHomeTabViewController.retryButtonTapped() -&gt; ()"
-                  moduleName = "Yaqeen"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
-                  timestampString = "541149528.7247829"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "246"
-                  endingLineNumber = "246"
-                  offsetFromSymbolStart = "390">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -592,38 +528,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "246"
             endingLineNumber = "246">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Yaqeen.YQHomeTabViewController.retryButtonTapped() -&gt; ()"
-                  moduleName = "Yaqeen"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
-                  timestampString = "541149528.730285"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "246"
-                  endingLineNumber = "246"
-                  offsetFromSymbolStart = "941">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in Yaqeen.YQHomeTabViewController.retryButtonTapped() -&gt; ()"
-                  moduleName = "Yaqeen"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nahmedamanullah/Documents/dev/yaqeen/yaqeen-ios/Yaqeen/Home/Views/YQHomeTabViewController.swift"
-                  timestampString = "541149528.7334009"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "246"
-                  endingLineNumber = "246"
-                  offsetFromSymbolStart = "390">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -814,6 +718,22 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "219"
             endingLineNumber = "219">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/RSLocationManager/RSLocationManager/RSLocationManager.swift"
+            timestampString = "543042203.180232"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "startUpdatingLocation()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

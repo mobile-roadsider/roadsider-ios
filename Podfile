@@ -1,3 +1,4 @@
+
 platform :ios, '10.0'
 
 # ignore all warnings from all pods
@@ -7,11 +8,9 @@ target :RoadSider do
     use_frameworks!
     project 'RoadSider.xcodeproj'
     inherit! :search_paths
-    # pod 'Firebase/Auth'
-    pod 'Fabric'
-    #pod 'Crashlytics'
-   # target 'RoadSiderTests' do
-    #    inherit! :search_paths
-     #   pod 'Firebase/Auth'
-   # end
+    pod 'GoogleMaps'
+    pod 'GooglePlaces'
+   # pod 'Fabric'
+   # pod 'Crashlytics'
+   # pod 'Firebase/Auth'
 end

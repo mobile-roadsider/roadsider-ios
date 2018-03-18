@@ -1,12 +1,20 @@
 PODS:
-  - Fabric (1.7.2)
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.5.0):
+    - GoogleMaps/Base (= 2.5.0)
 
 DEPENDENCIES:
-  - Fabric
+  - GoogleMaps
+  - GooglePlaces
 
 SPEC CHECKSUMS:
-  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  GooglePlaces: dd70d9d71ea1c7944846afe67de3712c99b30a77
 
-PODFILE CHECKSUM: a46f0cf0bef8658bf14e353cd590dc9c33d0cff8
+PODFILE CHECKSUM: bbe2292053c4873f68b6f53e26f40b1cdcd96988
 
 COCOAPODS: 1.1.1
